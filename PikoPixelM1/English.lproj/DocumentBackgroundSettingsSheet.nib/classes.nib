@@ -1,0 +1,97 @@
+{
+    IBClasses =     (
+                {
+            CLASS = FirstResponder;
+            LANGUAGE = ObjC;
+            SUPERCLASS = NSObject;
+        },
+                {
+            CLASS = NSObject;
+            LANGUAGE = ObjC;
+        },
+                {
+            CLASS = NSSegmentedControl;
+            LANGUAGE = ObjC;
+            SUPERCLASS = NSControl;
+        },
+                {
+            CLASS = NSTextField;
+            LANGUAGE = ObjC;
+            SUPERCLASS = NSControl;
+        },
+                {
+            CLASS = NSWindow;
+            LANGUAGE = ObjC;
+            SUPERCLASS = NSResponder;
+        },
+                {
+            CLASS = PPColorWell;
+            LANGUAGE = ObjC;
+            SUPERCLASS = NSColorWell;
+        },
+                {
+            ACTIONS =             {
+                backgroundImageViewUpdated = id;
+                copyImageToPasteboardButtonPressed = id;
+                imageSmoothingCheckboxClicked = id;
+                "patternPresetsMenuItemSelected_AddCurrentPatternToPresets" = id;
+                "patternPresetsMenuItemSelected_CustomPattern" = id;
+                "patternPresetsMenuItemSelected_DefaultPattern" = id;
+                "patternPresetsMenuItemSelected_EditPresets" = id;
+                "patternPresetsMenuItemSelected_ExportPresetsToFile" = id;
+                "patternPresetsMenuItemSelected_ImportPresetsFromFile" = id;
+                "patternPresetsMenuItemSelected_PresetPattern" = id;
+                "patternPresetsMenuItemSelected_RestoreOriginalDefault" = id;
+                "patternPresetsMenuItemSelected_SavePatternAsDefault" = id;
+                patternSettingChanged = id;
+                removeImageButtonPressed = id;
+                setImageToFileButtonPressed = id;
+                setImageToPasteboardButtonPressed = id;
+                showImageCheckboxClicked = id;
+            };
+            CLASS = PPDocumentBackgroundSettingsSheetController;
+            LANGUAGE = ObjC;
+            OUTLETS =             {
+                "_backgroundImageView" = NSImageView;
+                "_copyImageToPasteboardButton" = NSButton;
+                "_defaultPatternPresetsMenu" = NSMenu;
+                "_imageSmoothingCheckbox" = NSButton;
+                "_patternColor1Well" = NSColorWell;
+                "_patternColor2Well" = NSColorWell;
+                "_patternDisplayField" = NSTextField;
+                "_patternPresetsPopUpButton" = NSPopUpButton;
+                "_patternSizeSlider" = NSSlider;
+                "_patternTypeMatrix" = NSMatrix;
+                "_removeImageButton" = NSButton;
+                "_showImageCheckbox" = NSButton;
+            };
+            SUPERCLASS = PPDocumentSheetController;
+        },
+                {
+            ACTIONS =             {
+                OKButtonPressed = id;
+                cancelButtonPressed = id;
+            };
+            CLASS = PPDocumentSheetController;
+            LANGUAGE = ObjC;
+            OUTLETS =             {
+                "_sheet" = NSWindow;
+            };
+            SUPERCLASS = NSObject;
+        },
+                {
+            CLASS = PPKeyCancellableWindow;
+            LANGUAGE = ObjC;
+            OUTLETS =             {
+                "_cancelButton" = NSButton;
+            };
+            SUPERCLASS = NSWindow;
+        },
+                {
+            CLASS = PPParabolicSlider;
+            LANGUAGE = ObjC;
+            SUPERCLASS = NSSlider;
+        }
+    );
+    IBVersion = 1;
+}

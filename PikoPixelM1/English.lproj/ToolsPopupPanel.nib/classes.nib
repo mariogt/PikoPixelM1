@@ -1,0 +1,44 @@
+{
+    IBClasses =     (
+                {
+            ACTIONS =             {
+                "" = id;
+            };
+            CLASS = FirstResponder;
+            LANGUAGE = ObjC;
+            SUPERCLASS = NSObject;
+        },
+                {
+            CLASS = PPPanelController;
+            LANGUAGE = ObjC;
+            SUPERCLASS = NSWindowController;
+        },
+                {
+            CLASS = PPPopupPanel;
+            LANGUAGE = ObjC;
+            SUPERCLASS = NSPanel;
+        },
+                {
+            CLASS = PPPopupPanelController;
+            LANGUAGE = ObjC;
+            SUPERCLASS = PPPanelController;
+        },
+                {
+            CLASS = PPToolButtonMatrix;
+            LANGUAGE = ObjC;
+            SUPERCLASS = NSMatrix;
+        },
+                {
+            ACTIONS =             {
+                toolButtonMatrixClicked = id;
+            };
+            CLASS = PPToolsPopupPanelController;
+            LANGUAGE = ObjC;
+            OUTLETS =             {
+                "_toolButtonMatrix" = PPToolButtonMatrix;
+            };
+            SUPERCLASS = PPPopupPanelController;
+        }
+    );
+    IBVersion = 1;
+}

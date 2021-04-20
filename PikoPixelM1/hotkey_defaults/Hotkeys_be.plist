@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PencilTool</key>
+	<string>з</string>
+	<key>EraserTool</key>
+	<string>у</string>
+	<key>FillTool</key>
+	<string>а</string>
+	<key>LineTool</key>
+	<string>д</string>
+	<key>RectTool</key>
+	<string>к</string>
+	<key>OvalTool</key>
+	<string>ў</string>
+	<key>FreehandSelectTool</key>
+	<string>ф</string>
+	<key>RectSelectTool</key>
+	<string>ы</string>
+	<key>MagicWandTool</key>
+	<string>ц</string>
+	<key>ColorSamplerTool</key>
+	<string>в</string>
+	<key>MoveTool</key>
+	<string>м</string>
+	<key>MagnifierTool</key>
+	<string>ь</string>
+	<key>NavigatorPopup</key>
+	<string> </string>
+	<key>NavigatorPopup_Alternate</key>
+	<string>*</string>
+	<key>ToolsPopup</key>
+	<string>я</string>
+	<key>ToolsPopup_Alternate</key>
+	<string>/</string>
+	<key>ColorPickerPopup</key>
+	<string>ч</string>
+	<key>ColorPickerPopup_Alternate</key>
+	<string>ю</string>
+	<key>LayerControlsPopup</key>
+	<string>с</string>
+	<key>LayerControlsPopup_Alternate</key>
+	<string>б</string>
+	<key>BlinkDocumentLayers</key>
+	<string>и</string>
+	<key>SwitchCanvasViewMode</key>
+	<string>“</string>
+	<key>SwitchLayerOperationTarget</key>
+	<string>\T</string>
+	<key>ToggleActivePanels</key>
+	<string>\R</string>
+	<key>ToggleColorPickerPanel</key>
+	<string>ё</string>
+	<key>ZoomIn</key>
+	<string>=</string>
+	<key>ZoomOut</key>
+	<string>-</string>
+	<key>ZoomToFit</key>
+	<string>0</string>
+</dict>
+</plist>

@@ -1,0 +1,51 @@
+{
+    IBClasses =     (
+                {
+            ACTIONS =             {
+                "" = id;
+            };
+            CLASS = FirstResponder;
+            LANGUAGE = ObjC;
+            SUPERCLASS = NSObject;
+        },
+                {
+            CLASS = NSSegmentedControl;
+            LANGUAGE = ObjC;
+            SUPERCLASS = NSControl;
+        },
+                {
+            CLASS = PPColorWell;
+            LANGUAGE = ObjC;
+            SUPERCLASS = NSColorWell;
+        },
+                {
+            CLASS = PPPanelController;
+            LANGUAGE = ObjC;
+            SUPERCLASS = NSWindowController;
+        },
+                {
+            CLASS = PPThumbnailImageView;
+            LANGUAGE = ObjC;
+            SUPERCLASS = NSView;
+        },
+                {
+            CLASS = PPToolButtonMatrix;
+            LANGUAGE = ObjC;
+            SUPERCLASS = NSMatrix;
+        },
+                {
+            ACTIONS =             {
+                fillColorWellUpdated = id;
+                toolButtonMatrixClicked = id;
+            };
+            CLASS = PPToolsPanelController;
+            LANGUAGE = ObjC;
+            OUTLETS =             {
+                "_fillColorWell" = NSColorWell;
+                "_toolButtonMatrix" = PPToolButtonMatrix;
+            };
+            SUPERCLASS = PPPanelController;
+        }
+    );
+    IBVersion = 1;
+}

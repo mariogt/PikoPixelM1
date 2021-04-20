@@ -1,0 +1,44 @@
+{
+    IBClasses =     (
+                {
+            ACTIONS =             {
+                "" = id;
+            };
+            CLASS = FirstResponder;
+            LANGUAGE = ObjC;
+            SUPERCLASS = NSObject;
+        },
+                {
+            CLASS = NSSegmentedControl;
+            LANGUAGE = ObjC;
+            SUPERCLASS = NSControl;
+        },
+                {
+            CLASS = PPDocumentPreviewWindowController;
+            LANGUAGE = ObjC;
+            OUTLETS =             {
+                "_previewView" = PPPreviewView;
+            };
+            SUPERCLASS = NSWindowController;
+        },
+                {
+            CLASS = PPPanelController;
+            LANGUAGE = ObjC;
+            SUPERCLASS = NSWindowController;
+        },
+                {
+            CLASS = PPPreviewPanelController;
+            LANGUAGE = ObjC;
+            OUTLETS =             {
+                "_previewView" = PPPreviewView;
+            };
+            SUPERCLASS = PPPanelController;
+        },
+                {
+            CLASS = PPPreviewView;
+            LANGUAGE = ObjC;
+            SUPERCLASS = NSImageView;
+        }
+    );
+    IBVersion = 1;
+}

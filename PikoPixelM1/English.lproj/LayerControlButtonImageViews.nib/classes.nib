@@ -1,0 +1,25 @@
+{
+    IBClasses =     (
+                {
+            CLASS = FirstResponder;
+            LANGUAGE = ObjC;
+            SUPERCLASS = NSObject;
+        },
+                {
+            CLASS = PPLayerControlButtonImagesManager;
+            LANGUAGE = ObjC;
+            OUTLETS =             {
+                "_displayModeDrawLayerThumbnailView" = NSView;
+                "_displayModeDrawLayerView" = NSView;
+                "_displayModeEnabledLayersThumbnailView" = NSView;
+                "_displayModeEnabledLayersView" = NSView;
+                "_operationTargetDrawLayerThumbnailView" = NSView;
+                "_operationTargetDrawLayerView" = NSView;
+                "_operationTargetEnabledLayersThumbnailView" = NSView;
+                "_operationTargetEnabledLayersView" = NSView;
+            };
+            SUPERCLASS = NSObject;
+        }
+    );
+    IBVersion = 1;
+}

@@ -1,0 +1,70 @@
+{
+    IBClasses =     (
+                {
+            CLASS = FirstResponder;
+            LANGUAGE = ObjC;
+            SUPERCLASS = NSObject;
+        },
+                {
+            CLASS = NSObject;
+            LANGUAGE = ObjC;
+        },
+                {
+            CLASS = NSTextField;
+            LANGUAGE = ObjC;
+            SUPERCLASS = NSControl;
+        },
+                {
+            CLASS = NSWindow;
+            LANGUAGE = ObjC;
+            SUPERCLASS = NSResponder;
+        },
+                {
+            ACTIONS =             {
+                scalingFactorSliderMoved = id;
+                scalingFactorTypePopUpButtonItemSelected = id;
+            };
+            CLASS = PPDocumentScaleSheetController;
+            LANGUAGE = ObjC;
+            OUTLETS =             {
+                "_newSizeTextField" = NSTextField;
+                "_previewImageView" = NSImageView;
+                "_scalingFactorSlider" = NSSlider;
+                "_scalingFactorTextField" = NSTextField;
+                "_scalingFactorTypePopUpButton" = NSPopUpButton;
+            };
+            SUPERCLASS = PPDocumentSheetController;
+        },
+                {
+            ACTIONS =             {
+                OKButtonPressed = id;
+                cancelButtonPressed = id;
+            };
+            CLASS = PPDocumentSheetController;
+            LANGUAGE = ObjC;
+            OUTLETS =             {
+                "_sheet" = NSWindow;
+            };
+            SUPERCLASS = NSObject;
+        },
+                {
+            CLASS = PPKeyCancellableWindow;
+            LANGUAGE = ObjC;
+            OUTLETS =             {
+                "_cancelButton" = NSButton;
+            };
+            SUPERCLASS = NSWindow;
+        },
+                {
+            CLASS = PPParabolicSlider;
+            LANGUAGE = ObjC;
+            SUPERCLASS = NSSlider;
+        },
+                {
+            CLASS = PPScaledImageView;
+            LANGUAGE = ObjC;
+            SUPERCLASS = NSImageView;
+        }
+    );
+    IBVersion = 1;
+}

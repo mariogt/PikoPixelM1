@@ -1,0 +1,84 @@
+{
+    IBClasses =     (
+        {
+    CLASS = FirstResponder;
+    LANGUAGE = ObjC;
+    SUPERCLASS = NSObject;
+},
+        {
+    CLASS = MyDocument;
+    LANGUAGE = ObjC;
+    SUPERCLASS = NSDocument;
+},
+        {
+    CLASS = NSSegmentedControl;
+    LANGUAGE = ObjC;
+    SUPERCLASS = NSControl;
+},
+        {
+    CLASS = PPCanvasView;
+    LANGUAGE = ObjC;
+    SUPERCLASS = NSView;
+},
+        {
+    CLASS = PPDocumentWindow;
+    LANGUAGE = ObjC;
+    SUPERCLASS = NSWindow;
+},
+        {
+    ACTIONS =     {
+        clearBackgroundImage = id;
+        copy = id;
+        copyMerged = id;
+        cropToSelection = id;
+        cut = id;
+        cutMerged = id;
+        decreaseActiveLayerOpacity = id;
+        decreaseZoom = id;
+        delete = id;
+        deleteActiveLayer = id;
+        deleteMerged = id;
+        disableAllLayers = id;
+        duplicateActiveLayer = id;
+        editBackgroundSettings = id;
+        editGridSettings = id;
+        enableAllLayers = id;
+        fillSelection = id;
+        flattenAllLayers = id;
+        flipHorizontally = id;
+        flipVertically = id;
+        increaseActiveLayerOpacity = id;
+        increaseZoom = id;
+        invertSelection = id;
+        makeNextLayerActive = id;
+        makePreviousLayerActive = id;
+        mergeWithLayerAbove = id;
+        mergeWithLayerBelow = id;
+        newLayer = id;
+        paste = id;
+        pasteIntoActiveLayer = id;
+        resize = id;
+        rotate180 = id;
+        rotate90Clockwise = id;
+        rotate90Counterclockwise = id;
+        selectAll = id;
+        selectNone = id;
+        toggleActiveLayerEnabledFlag = id;
+        toggleActivePanelsVisibility = id;
+        toggleBackgroundImageVisibility = id;
+        toggleGridVisibility = id;
+        toggleLayersPanelVisibility = id;
+        togglePreviewPanelVisibility = id;
+        toggleToolsPanelVisibility = id;
+        zoomToFit = id;
+    };
+    CLASS = PPDocumentWindowController;
+    LANGUAGE = ObjC;
+    OUTLETS =     {
+        "_canvasView" = PPCanvasView;
+    };
+    SUPERCLASS = NSWindowController;
+}
+    );
+    IBVersion = 1;
+}

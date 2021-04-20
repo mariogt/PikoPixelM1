@@ -1,0 +1,116 @@
+{
+    IBClasses =     (
+                {
+            CLASS = FirstResponder;
+            LANGUAGE = ObjC;
+            SUPERCLASS = NSObject;
+        },
+                {
+            CLASS = NSObject;
+            LANGUAGE = ObjC;
+        },
+                {
+            CLASS = NSSegmentedControl;
+            LANGUAGE = ObjC;
+            SUPERCLASS = NSControl;
+        },
+                {
+            CLASS = PPDocumentPreviewWindowController;
+            LANGUAGE = ObjC;
+            OUTLETS =             {
+                "_previewView" = PPPreviewView;
+            };
+            SUPERCLASS = NSWindowController;
+        },
+                {
+            ACTIONS =             {
+                movedZoomSlider = id;
+                pressedZoomButton = id;
+                selectedDisplayTypeSegment = id;
+            };
+            CLASS = PPNavigatorPanelController;
+            LANGUAGE = ObjC;
+            OUTLETS =             {
+                "_decreaseZoomButton" = NSButton;
+                "_displayTypeSegmentedControl" = NSSegmentedControl;
+                "_increaseZoomButton" = NSButton;
+                "_navigatorView" = PPNavigatorView;
+                "_zoomSlider" = NSSlider;
+            };
+            SUPERCLASS = PPPanelController;
+        },
+                {
+            ACTIONS =             {
+                zoomButtonPressed = id;
+                zoomSliderMoved = id;
+            };
+            CLASS = PPNavigatorPopupPanelController;
+            LANGUAGE = ObjC;
+            OUTLETS =             {
+                "_decreaseZoomButton" = NSButton;
+                "_increaseZoomButton" = NSButton;
+                "_navigatorView" = PPNavigatorPopupView;
+                "_zoomSlider" = NSSlider;
+            };
+            SUPERCLASS = PPPopupPanelController;
+        },
+                {
+            CLASS = PPNavigatorPopupView;
+            LANGUAGE = ObjC;
+            SUPERCLASS = PPThumbnailImageView;
+        },
+                {
+            CLASS = PPNavigatorView;
+            LANGUAGE = ObjC;
+            SUPERCLASS = NSImageView;
+        },
+                {
+            CLASS = PPPanelController;
+            LANGUAGE = ObjC;
+            SUPERCLASS = NSWindowController;
+        },
+                {
+            CLASS = PPParabolicSlider;
+            LANGUAGE = ObjC;
+            SUPERCLASS = NSSlider;
+        },
+                {
+            CLASS = PPPopupPanel;
+            LANGUAGE = ObjC;
+            SUPERCLASS = NSPanel;
+        },
+                {
+            CLASS = PPPopupPanelController;
+            LANGUAGE = ObjC;
+            SUPERCLASS = PPPanelController;
+        },
+                {
+            ACTIONS =             {
+                movedZoomSlider = id;
+                pressedZoomButton = id;
+                selectedDisplayTypeSegment = id;
+            };
+            CLASS = PPPreviewPanelController;
+            LANGUAGE = ObjC;
+            OUTLETS =             {
+                "_decreaseZoomButton" = NSButton;
+                "_displayTypeSegmentedControl" = NSSegmentedControl;
+                "_increaseZoomButton" = NSButton;
+                "_previewView" = PPPreviewView;
+                "_zoomSlider" = NSSlider;
+            };
+            SUPERCLASS = PPPanelController;
+        },
+                {
+            CLASS = PPPreviewView;
+            LANGUAGE = ObjC;
+            SUPERCLASS = NSImageView;
+        },
+                {
+            CLASS = PPThumbnailImageView;
+            LANGUAGE = ObjC;
+            SUPERCLASS = NSView;
+        }
+    );
+    IBVersion = 1;
+}

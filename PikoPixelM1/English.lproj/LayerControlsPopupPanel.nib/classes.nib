@@ -1,0 +1,62 @@
+{
+    IBClasses =     (
+                {
+            CLASS = FirstResponder;
+            LANGUAGE = ObjC;
+            SUPERCLASS = NSObject;
+        },
+                {
+            CLASS = NSSegmentedControl;
+            LANGUAGE = ObjC;
+            SUPERCLASS = NSControl;
+        },
+                {
+            ACTIONS =             {
+                canvasDisplayModeButtonPressed = id;
+                drawingLayerEnabledCheckboxClicked = id;
+                drawingLayerOpacitySliderMoved = id;
+                drawingLayerPopupMenuItemSelected = id;
+                layerOperationTargetButtonPressed = id;
+            };
+            CLASS = PPLayerControlsPopupPanelController;
+            LANGUAGE = ObjC;
+            OUTLETS =             {
+                "_backgroundFillTextField" = NSTextField;
+                "_canvasDisplayModeButton" = NSButton;
+                "_drawingLayerEnabledCheckbox" = NSButton;
+                "_drawingLayerOpacitySlider" = NSSlider;
+                "_drawingLayerOpacityTextField" = NSTextField;
+                "_drawingLayerThumbnailView" = PPThumbnailImageView;
+                "_drawingLayerTitleablePopUpButton" = PPTitleablePopUpButton;
+                "_layerOperationTargetButton" = NSButton;
+            };
+            SUPERCLASS = PPPopupPanelController;
+        },
+                {
+            CLASS = PPPanelController;
+            LANGUAGE = ObjC;
+            SUPERCLASS = NSWindowController;
+        },
+                {
+            CLASS = PPPopupPanel;
+            LANGUAGE = ObjC;
+            SUPERCLASS = NSPanel;
+        },
+                {
+            CLASS = PPPopupPanelController;
+            LANGUAGE = ObjC;
+            SUPERCLASS = PPPanelController;
+        },
+                {
+            CLASS = PPThumbnailImageView;
+            LANGUAGE = ObjC;
+            SUPERCLASS = NSView;
+        },
+                {
+            CLASS = PPTitleablePopUpButton;
+            LANGUAGE = ObjC;
+            SUPERCLASS = NSPopUpButton;
+        }
+    );
+    IBVersion = 1;
+}

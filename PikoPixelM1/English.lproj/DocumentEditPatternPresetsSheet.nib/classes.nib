@@ -1,0 +1,66 @@
+{
+    IBClasses =     (
+        {
+    CLASS = FirstResponder;
+    LANGUAGE = ObjC;
+    SUPERCLASS = NSObject;
+},
+        {
+    CLASS = NSObject;
+    LANGUAGE = ObjC;
+},
+        {
+    CLASS = PPColorWell;
+    LANGUAGE = ObjC;
+    SUPERCLASS = NSColorWell;
+},
+        {
+    ACTIONS =     {
+        addCurrentPatternAsPresetButtonPressed = id;
+        removeAllPresetsButtonPressed = id;
+        removePresetButtonPressed = id;
+    };
+    CLASS = PPDocumentEditPatternPresetsSheetController;
+    LANGUAGE = ObjC;
+    OUTLETS =     {
+        "_editablePatternsTable" = NSTableView;
+        "_patternView" = PPPresettablePatternView;
+        "_removeAllPresetsButton" = NSButton;
+        "_removePresetButton" = NSButton;
+        "_sheetTitleField" = NSTextField;
+    };
+    SUPERCLASS = PPDocumentSheetController;
+},
+        {
+    ACTIONS =     {
+        OKButtonPressed = id;
+        cancelButtonPressed = id;
+    };
+    CLASS = PPDocumentSheetController;
+    LANGUAGE = ObjC;
+    OUTLETS =     {
+        "_sheet" = NSWindow;
+    };
+    SUPERCLASS = NSObject;
+},
+        {
+    CLASS = PPKeyCancellableWindow;
+    LANGUAGE = ObjC;
+    OUTLETS =     {
+        "_cancelButton" = NSButton;
+    };
+    SUPERCLASS = NSWindow;
+},
+        {
+    CLASS = PPParabolicSlider;
+    LANGUAGE = ObjC;
+    SUPERCLASS = NSSlider;
+},
+        {
+    CLASS = PPPresettablePatternView;
+    LANGUAGE = ObjC;
+    SUPERCLASS = NSView;
+}
+    );
+    IBVersion = 1;
+}

@@ -1,0 +1,126 @@
+{
+    IBClasses =     (
+                {
+            ACTIONS =             {
+                closeHolesInSelection = id;
+                copyMerged = id;
+                cropToSelection = id;
+                cutMerged = id;
+                decreaseActiveLayerOpacity = id;
+                decreaseZoom = id;
+                deleteActiveLayer = id;
+                deleteMerged = id;
+                deselectAll = id;
+                deselectInvisibleTargetPixels = id;
+                disableAllLayers = id;
+                duplicateActiveLayer = id;
+                editBackgroundSettings = id;
+                editGridSettings = id;
+                editHotkeySettings = id;
+                editSamplerImagesSettings = id;
+                enableAllLayers = id;
+                eraseSelectedPixels = id;
+                exportImage = id;
+                fillSelectedPixels = id;
+                flipCanvasHorizontally = id;
+                flipCanvasVertically = id;
+                flipHorizontally = id;
+                flipVertically = id;
+                hotkeySettings = id;
+                increaseActiveLayerOpacity = id;
+                increaseZoom = id;
+                invertSelection = id;
+                makeNextLayerActive = id;
+                makePreviousLayerActive = id;
+                mergeAllLayers = id;
+                mergeWithLayerAbove = id;
+                mergeWithLayerBelow = id;
+                moveActiveLayerDown = id;
+                moveActiveLayerUp = id;
+                newDocumentFromSelection = id;
+                newLayer = id;
+                nextSamplerPanelImage = id;
+                nudgeDown = id;
+                nudgeLeft = id;
+                nudgeRight = id;
+                nudgeSelectionOutlineDown = id;
+                nudgeSelectionOutlineLeft = id;
+                nudgeSelectionOutlineRight = id;
+                nudgeSelectionOutlineUp = id;
+                nudgeUp = id;
+                pasteIntoActiveLayer = id;
+                previousSamplerPanelImage = id;
+                resize = id;
+                rotate180 = id;
+                rotate90Clockwise = id;
+                rotate90Counterclockwise = id;
+                rotateCanvas180 = id;
+                rotateCanvas90Clockwise = id;
+                rotateCanvas90Counterclockwise = id;
+                scale = id;
+                selectVisibleTargetPixels = id;
+                tileSelection = id;
+                tileSelectionAsNewLayer = id;
+                toggleActiveLayerEnabledFlag = id;
+                toggleActivePanelsVisibility = id;
+                toggleBackgroundImageSmoothing = id;
+                toggleBackgroundImageVisibility = id;
+                toggleCanvasDisplayMode = id;
+                toggleColorPickerVisibility = id;
+                toggleGridGuidelinesVisibility = id;
+                toggleGridType = id;
+                toggleGridVisibility = id;
+                toggleLayerBlendingMode = id;
+                toggleLayerOperationTarget = id;
+                toggleLayersPanelVisibility = id;
+                togglePreviewPanelVisibility = id;
+                toggleSamplerImagePanelVisibility = id;
+                toggleToolModifierTipsPanelVisibility = id;
+                toggleToolsPanelVisibility = id;
+                zoomToFit = id;
+            };
+            CLASS = FirstResponder;
+            LANGUAGE = ObjC;
+            SUPERCLASS = NSObject;
+        },
+                {
+            CLASS = NSDocumentController;
+            LANGUAGE = ObjC;
+            SUPERCLASS = NSObject;
+        },
+                {
+            CLASS = NSObject;
+            LANGUAGE = ObjC;
+        },
+                {
+            CLASS = NSWindow;
+            LANGUAGE = ObjC;
+            SUPERCLASS = NSResponder;
+        },
+                {
+            ACTIONS =             {
+                activateNextDocumentWindow = id;
+                activatePreviousDocumentWindow = id;
+                editHotkeySettings = id;
+                newDocumentFromPasteboard = id;
+            };
+            CLASS = PPApplication;
+            LANGUAGE = ObjC;
+            OUTLETS =             {
+                "_canvasDisplayModeMenuItem" = NSMenuItem;
+                "_layerOperationTargetMenuItem" = NSMenuItem;
+                "_leftArrowKeyEquivalentMenuItem" = NSMenuItem;
+                "_pasteMenuItem" = NSMenuItem;
+                "_previousWindowMenuItem" = NSMenuItem;
+                "_rightArrowKeyEquivalentMenuItem" = NSMenuItem;
+                "_toggleActivePanelsMenuItem" = NSMenuItem;
+                "_toggleColorPickerMenuItem" = NSMenuItem;
+                "_zoomInMenuItem" = NSMenuItem;
+                "_zoomOutMenuItem" = NSMenuItem;
+                "_zoomToFitMenuItem" = NSMenuItem;
+            };
+            SUPERCLASS = NSApplication;
+        }
+    );
+    IBVersion = 1;
+}

@@ -1,0 +1,51 @@
+{
+    IBClasses =     (
+                {
+            ACTIONS =             {
+                "" = id;
+            };
+            CLASS = FirstResponder;
+            LANGUAGE = ObjC;
+            SUPERCLASS = NSObject;
+        },
+                {
+            CLASS = NSObject;
+            LANGUAGE = ObjC;
+        },
+                {
+            ACTIONS =             {
+                canvasSettingCheckboxClicked = id;
+                fileFormatPopupMenuItemSelected = id;
+                scalingFactorSliderMoved = id;
+            };
+            CLASS = PPExportPanelAccessoryViewController;
+            LANGUAGE = ObjC;
+            OUTLETS =             {
+                "_backgroundImageCheckbox" = NSButton;
+                "_backgroundImageTextField" = NSTextField;
+                "_backgroundPatternCheckbox" = NSButton;
+                "_backgroundPatternTitleablePopUpButton" = PPTitleablePopUpButton;
+                "_exportAccessoryView" = NSView;
+                "_exportSizeTextField" = NSTextField;
+                "_fileFormatPopUpButton" = NSPopUpButton;
+                "_gridCheckbox" = NSButton;
+                "_gridTitleablePopUpButton" = PPTitleablePopUpButton;
+                "_previewImageView" = NSImageView;
+                "_scalingFactorSlider" = NSSlider;
+                "_scalingFactorTextField" = NSTextField;
+            };
+            SUPERCLASS = NSObject;
+        },
+                {
+            CLASS = PPParabolicSlider;
+            LANGUAGE = ObjC;
+            SUPERCLASS = NSSlider;
+        },
+                {
+            CLASS = PPTitleablePopUpButton;
+            LANGUAGE = ObjC;
+            SUPERCLASS = NSPopUpButton;
+        }
+    );
+    IBVersion = 1;
+}

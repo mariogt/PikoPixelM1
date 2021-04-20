@@ -1,0 +1,65 @@
+{
+    IBClasses =     (
+                {
+            ACTIONS =             {
+                editSamplerImagesSettings = id;
+            };
+            CLASS = FirstResponder;
+            LANGUAGE = ObjC;
+            SUPERCLASS = NSObject;
+        },
+                {
+            CLASS = NSObject;
+            LANGUAGE = ObjC;
+        },
+                {
+            CLASS = NSSegmentedControl;
+            LANGUAGE = ObjC;
+            SUPERCLASS = NSControl;
+        },
+                {
+            CLASS = PPColorWell;
+            LANGUAGE = ObjC;
+            SUPERCLASS = NSColorWell;
+        },
+                {
+            ACTIONS =             {
+                addImageFromClipboardButtonPressed = id;
+                addImageFromFileButtonPressed = id;
+                copyImageToClipboardButtonPressed = id;
+                removeAllImagesButtonPressed = id;
+                removeImageButtonPressed = id;
+            };
+            CLASS = PPDocumentSamplerImagesSettingsSheetController;
+            LANGUAGE = ObjC;
+            OUTLETS =             {
+                "_copyImageToClipboardButton" = NSButton;
+                "_removeAllImagesButton" = NSButton;
+                "_removeImageButton" = NSButton;
+                "_samplerImagesTable" = NSTableView;
+            };
+            SUPERCLASS = PPDocumentSheetController;
+        },
+                {
+            ACTIONS =             {
+                OKButtonPressed = id;
+                cancelButtonPressed = id;
+            };
+            CLASS = PPDocumentSheetController;
+            LANGUAGE = ObjC;
+            OUTLETS =             {
+                "_sheet" = NSWindow;
+            };
+            SUPERCLASS = NSObject;
+        },
+                {
+            CLASS = PPKeyCancellableWindow;
+            LANGUAGE = ObjC;
+            OUTLETS =             {
+                "_cancelButton" = NSButton;
+            };
+            SUPERCLASS = NSWindow;
+        }
+    );
+    IBVersion = 1;
+}

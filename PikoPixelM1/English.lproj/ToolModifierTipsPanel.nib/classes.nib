@@ -1,0 +1,26 @@
+{
+    IBClasses =     (
+                {
+            CLASS = FirstResponder;
+            LANGUAGE = ObjC;
+            SUPERCLASS = NSObject;
+        },
+                {
+            CLASS = PPPanelController;
+            LANGUAGE = ObjC;
+            SUPERCLASS = NSWindowController;
+        },
+                {
+            CLASS = PPToolModifierTipsPanelController;
+            LANGUAGE = ObjC;
+            OUTLETS =             {
+                "_actionModifierDescriptionsTextField" = NSTextField;
+                "_actionModifierKeysTextField" = NSTextField;
+                "_typeModifierKeysTextField" = NSTextField;
+                "_typeModifierToolNamesTextField" = NSTextField;
+            };
+            SUPERCLASS = PPPanelController;
+        }
+    );
+    IBVersion = 1;
+}

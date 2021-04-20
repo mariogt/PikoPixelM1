@@ -1,0 +1,89 @@
+{
+    IBClasses =     (
+                {
+            ACTIONS =             {
+                "" = id;
+            };
+            CLASS = FirstResponder;
+            LANGUAGE = ObjC;
+            SUPERCLASS = NSObject;
+        },
+                {
+            CLASS = NSSegmentedControl;
+            LANGUAGE = ObjC;
+            SUPERCLASS = NSControl;
+        },
+                {
+            CLASS = PPLayerBlendingModeButton;
+            LANGUAGE = ObjC;
+            SUPERCLASS = NSButton;
+        },
+                {
+            CLASS = PPLayerEnabledButtonCell;
+            LANGUAGE = ObjC;
+            SUPERCLASS = NSButtonCell;
+        },
+                {
+            CLASS = PPLayerOpacitySliderCell;
+            LANGUAGE = ObjC;
+            SUPERCLASS = NSSliderCell;
+        },
+                {
+            CLASS = PPLayersPanel;
+            LANGUAGE = ObjC;
+            SUPERCLASS = NSPanel;
+        },
+                {
+            ACTIONS =             {
+                addLayerButtonPressed = id;
+                canvasDisplayModeButtonPressed = id;
+                deleteLayerButtonPressed = id;
+                duplicateLayerButtonPressed = id;
+                layerBlendingModeButtonPressed = id;
+                layerOperationTargetButtonPressed = id;
+                layersTableOpacitySliderMoved = id;
+            };
+            CLASS = PPLayersPanelController;
+            LANGUAGE = ObjC;
+            OUTLETS =             {
+                "_canvasDisplayModeButton" = NSButton;
+                "_layerBlendingModeButton" = PPLayerBlendingModeButton;
+                "_layerOperationTargetButton" = NSButton;
+                "_layersTable" = PPLayersTableView;
+            };
+            SUPERCLASS = PPPanelController;
+        },
+                {
+            ACTIONS =             {
+                layerEnabledButtonCellClicked = id;
+            };
+            CLASS = PPLayersTableView;
+            LANGUAGE = ObjC;
+            SUPERCLASS = NSTableView;
+        },
+                {
+            CLASS = PPLayersWindow;
+            LANGUAGE = ObjC;
+            SUPERCLASS = NSPanel;
+        },
+                {
+            CLASS = PPPanelController;
+            LANGUAGE = ObjC;
+            SUPERCLASS = NSWindowController;
+        },
+                {
+            ACTIONS =             {
+                restoreSelectionFromLastMouseDown = id;
+            };
+            CLASS = PPTableView;
+            LANGUAGE = ObjC;
+            SUPERCLASS = NSTableView;
+        },
+                {
+            CLASS = PPThumbnailImageView;
+            LANGUAGE = ObjC;
+            SUPERCLASS = NSView;
+        }
+    );
+    IBVersion = 1;
+}

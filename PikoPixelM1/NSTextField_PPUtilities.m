@@ -1,0 +1,103 @@
+/*
+    NSTextField_PPUtilities.m
+
+    Copyright 2013-2018 Josh Freeman
+    http://www.twilightedge.com
+
+    This file is part of PikoPixel for Mac OS X and GNUstep.
+    PikoPixel is a graphical application for drawing & editing pixel-art images.
+
+    PikoPixel is free software: you can redistribute it and/or modify it under
+    the terms of the GNU Affero General Public License as published by the
+    Free Software Foundation, either version 3 of the License, or (at your
+    option) any later version approved for PikoPixel by its copyright holder (or
+    an authorized proxy).
+
+    PikoPixel is distributed in the hope that it will be useful, but WITHOUT ANY
+    WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+    FOR A PARTICULAR PURPOSE. See the GNU Affero General Public License for more
+    details.
+
+    You should have received a copy of the GNU Affero General Public License
+    along with this program. If not, see <http://www.gnu.org/licenses/>.
+*/
+
+#import "NSTextField_PPUtilities.h"
+
+#import "PPAppBootUtilities.h"
+
+
+static NSCharacterSet *gNonDigitCharacterSet = nil;
+
+
+@implementation NSObject (NSTextField_PPUtilities)
+
++ (void) ppNSTextField_PPUtilities_SetupGlobals
+{
+    gNonDigitCharacterSet = [[[NSCharacterSet decimalDigitCharacterSet] invertedSet] retain];
+}
+
++ (void) load
+{
+    macroPerformNSObjectSelectorAfterAppLoads(ppNSTextField_PPUtilities_SetupGlobals);
+}
+
+@end
+
+@implementation NSTextField (PPUtilities)
+
+- (int) ppClampIntValueToMax: (int) maxValue
+            min: (int) minValue
+            defaultValue: (int) defaultValue
+{
+    int clampedValue, currentValue;
+    bool needToUpdateTextField = YES, selectTextFieldAfterUpdate = YES;
+
+    if ([[self stringValue] rangeOfCharacterFromSet: gNonDigitCharacterSet].length)
+    {
+        clampedValue = defaultValue;
+        selectTextFieldAfterUpdate = NO;
+    }
+    else
+    {
+        currentValue = [self intValue];
+
+        if (currentValue < minValue)
+        {
+            if ((currentValue > 0) && ((currentValue * 10) <= maxValue))
+            {
+                // don't clamp valid positive integers less than minValue, because they can
+                // become valid values after more digits are typed
+                clampedValue = currentValue;
+                needToUpdateTextField = NO;
+            }
+            else
+            {
+                clampedValue = minValue;
+            }
+        }
+        else if (currentValue > maxValue)
+        {
+            clampedValue = maxValue;
+        }
+        else
+        {
+            clampedValue = currentValue;
+            needToUpdateTextField = NO;
+        }
+    }
+
+    if (needToUpdateTextField)
+    {
+        [self setIntValue: clampedValue];
+
+        if (selectTextFieldAfterUpdate)
+        {
+            [self selectText: nil];
+        }
+    }
+
+    return clampedValue;
+}
+
+@end

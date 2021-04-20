@@ -1,0 +1,42 @@
+{
+    IBClasses =     (
+                {
+            CLASS = FirstResponder;
+            LANGUAGE = ObjC;
+            SUPERCLASS = NSObject;
+        },
+                {
+            CLASS = NSObject;
+            LANGUAGE = ObjC;
+        },
+                {
+            CLASS = PPDocumentFlattenedSaveNoticeSheetController;
+            LANGUAGE = ObjC;
+            OUTLETS =             {
+                "_dontShowAgainCheckbox" = NSButton;
+            };
+            SUPERCLASS = PPDocumentSheetController;
+        },
+                {
+            ACTIONS =             {
+                OKButtonPressed = id;
+                cancelButtonPressed = id;
+            };
+            CLASS = PPDocumentSheetController;
+            LANGUAGE = ObjC;
+            OUTLETS =             {
+                "_sheet" = NSWindow;
+            };
+            SUPERCLASS = NSObject;
+        },
+                {
+            CLASS = PPKeyCancellableWindow;
+            LANGUAGE = ObjC;
+            OUTLETS =             {
+                "_cancelButton" = NSButton;
+            };
+            SUPERCLASS = NSWindow;
+        }
+    );
+    IBVersion = 1;
+}

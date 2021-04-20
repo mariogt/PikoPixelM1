@@ -1,0 +1,66 @@
+{
+    IBClasses =     (
+                {
+            ACTIONS =             {
+                "" = id;
+            };
+            CLASS = FirstResponder;
+            LANGUAGE = ObjC;
+            SUPERCLASS = NSObject;
+        },
+                {
+            CLASS = NSObject;
+            LANGUAGE = ObjC;
+        },
+                {
+            CLASS = PPColorWell;
+            LANGUAGE = ObjC;
+            SUPERCLASS = NSColorWell;
+        },
+                {
+            CLASS = PPMiniColorWell;
+            LANGUAGE = ObjC;
+            SUPERCLASS = NSView;
+        },
+                {
+            CLASS = PPPanelController;
+            LANGUAGE = ObjC;
+            SUPERCLASS = NSWindowController;
+        },
+                {
+            CLASS = PPPopupPanel;
+            LANGUAGE = ObjC;
+            SUPERCLASS = NSPanel;
+        },
+                {
+            CLASS = PPPopupPanelController;
+            LANGUAGE = ObjC;
+            SUPERCLASS = PPPanelController;
+        },
+                {
+            CLASS = PPResizeControl;
+            LANGUAGE = ObjC;
+            SUPERCLASS = NSImageView;
+        },
+                {
+            ACTIONS =             {
+                nextSamplerImageButtonPressed = id;
+                previousSamplerImageButtonPressed = id;
+            };
+            CLASS = PPSamplerImagePopupPanelController;
+            LANGUAGE = ObjC;
+            OUTLETS =             {
+                "_miniColorWell" = PPMiniColorWell;
+                "_resizeControl" = PPResizeControl;
+                "_samplerImageView" = PPSamplerImageView;
+            };
+            SUPERCLASS = PPPopupPanelController;
+        },
+                {
+            CLASS = PPSamplerImageView;
+            LANGUAGE = ObjC;
+            SUPERCLASS = NSView;
+        }
+    );
+    IBVersion = 1;
+}

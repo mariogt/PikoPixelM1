@@ -1,0 +1,772 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>TypeModifierTitlesDict</key>
+	<dict>
+		<key>DescriptionTitlePrefix</key>
+		<string>Switch from </string>
+		
+		<key>KeyNamesTitle</key>
+		<string>Modifier Key(s)</string>
+		
+		<key>DefaultDescriptionSubtitle</key>
+		<string>(Before mouse click)</string>
+		
+		<key>DefaultKeyNamesSubtitle</key>
+		<string>Hold until mouse down</string>
+	</dict>
+	
+	<key>ActionModifierTitlesDict</key>
+	<dict>
+		<key>DescriptionTitlePrefix</key>
+		<string>Modify Action of </string>
+		
+		<key>KeyNamesTitle</key>
+		<string>Modifier Key(s)</string>
+		
+		<key>DefaultDescriptionSubtitle</key>
+		<string>(While mouse down)</string>
+		
+		<key>DefaultKeyNamesSubtitle</key>
+		<string>Hold until mouse up</string>
+	</dict>	
+	
+	<key>ToolModifierDicts</key>
+	<array>
+		<dict>
+			<key>ToolName</key>
+			<string>Pencil</string>
+			
+			<key>TypeModifierDicts</key>
+			<array>
+				<dict>
+					<key>ModifierStringDicts</key>
+					<array>
+						<dict>
+							<key>Description</key>
+							<string>Eraser</string>
+							<key>KeyNames</key>
+							<string>Control</string>
+						</dict>
+						<dict>
+							<key>Description</key>
+							<string>Fill Tool</string>
+							<key>KeyNames</key>
+							<string>Option + Shift</string>
+						</dict>
+						<dict>
+							<key>Description</key>
+							<string>Color Sampler Tool</string>
+							<key>KeyNames</key>
+							<string>Option</string>
+						</dict>
+						<dict>
+							<key>Description</key>
+							<string>Move Tool</string>
+							<key>KeyNames</key>
+							<string>Control + Shift</string>
+						</dict>
+						<dict>
+							<key>Description</key>
+							<string>Magnifier</string>
+							<key>KeyNames</key>
+							<string>Command + Option</string>
+						</dict>
+					</array>
+				</dict>
+			</array>
+			
+			<key>ActionModifierDicts</key>
+			<array>
+				<dict>
+					<key>CustomKeyNamesSubtitle</key>
+					<string>Hold until segment done</string>
+
+					<key>ModifierStringDicts</key>
+					<array>
+						<dict>
+							<key>Description</key>
+							<string>Draw Line Segment</string>
+							<key>KeyNames</key>
+							<string>Shift</string>
+						</dict>
+					</array>
+				</dict>
+
+				<dict>
+					<key>CustomDescriptionSubtitle</key>
+					<string> </string>
+					
+					<key>ModifierStringDicts</key>
+					<array>
+						<dict>
+							<key>Description</key>
+							<string>Fill Drawn Shape</string>
+							<key>KeyNames</key>
+							<string>Command</string>
+						</dict>
+					</array>
+				</dict>
+			</array>
+		</dict>
+
+		<dict>
+			<key>ToolName</key>
+			<string>Eraser</string>
+			
+			<key>TypeModifierDicts</key>
+			<array>
+				<dict>
+					<key>ModifierStringDicts</key>
+					<array>
+						<dict>
+							<key>Description</key>
+							<string>Move Tool</string>
+							<key>KeyNames</key>
+							<string>Control + Shift</string>
+						</dict>
+						<dict>
+							<key>Description</key>
+							<string>Magnifier</string>
+							<key>KeyNames</key>
+							<string>Command + Option</string>
+						</dict>
+					</array>
+				</dict>
+			</array>
+
+			<key>ActionModifierDicts</key>
+			<array>
+				<dict>
+					<key>ModifierStringDicts</key>
+					<array>
+						<dict>
+							<key>Description</key>
+							<string>Erase Drawn Shape</string>
+							<key>KeyNames</key>
+							<string>Command</string>
+						</dict>
+					</array>
+				</dict>
+			</array>
+		</dict>
+
+		<dict>
+			<key>ToolName</key>
+			<string>Fill Tool</string>
+			
+			<key>TypeModifierDicts</key>
+			<array>
+				<dict>
+					<key>ModifierStringDicts</key>
+					<array>
+						<dict>
+							<key>Description</key>
+							<string>Color Sampler Tool</string>
+							<key>KeyNames</key>
+							<string>Option</string>
+						</dict>
+						<dict>
+							<key>Description</key>
+							<string>Move Tool</string>
+							<key>KeyNames</key>
+							<string>Control + Shift</string>
+						</dict>
+						<dict>
+							<key>Description</key>
+							<string>Magnifier</string>
+							<key>KeyNames</key>
+							<string>Command + Option</string>
+						</dict>
+					</array>
+				</dict>
+			</array>
+			
+			<key>ActionModifierDicts</key>
+			<array>
+				<dict>
+					<key>ModifierStringDicts</key>
+					<array>
+						<dict>
+							<key>Description</key>
+							<string>Match Diagonally</string>
+							<key>KeyNames</key>
+							<string>Control</string>
+						</dict>
+						<dict>
+							<key>Description</key>
+							<string>Match Anywhere</string>
+							<key>KeyNames</key>
+							<string>Command</string>
+						</dict>
+					</array>
+				</dict>
+			</array>
+		</dict>
+
+		<dict>
+			<key>ToolName</key>
+			<string>Line Tool</string>
+			
+			<key>TypeModifierDicts</key>
+			<array>
+				<dict>
+					<key>ModifierStringDicts</key>
+					<array>
+						<dict>
+							<key>Description</key>
+							<string>Eraser</string>
+							<key>KeyNames</key>
+							<string>Control</string>
+						</dict>
+						<dict>
+							<key>Description</key>
+							<string>Fill Tool</string>
+							<key>KeyNames</key>
+							<string>Option + Shift</string>
+						</dict>
+						<dict>
+							<key>Description</key>
+							<string>Color Sampler Tool</string>
+							<key>KeyNames</key>
+							<string>Option</string>
+						</dict>
+						<dict>
+							<key>Description</key>
+							<string>Move Tool</string>
+							<key>KeyNames</key>
+							<string>Control + Shift</string>
+						</dict>
+						<dict>
+							<key>Description</key>
+							<string>Magnifier</string>
+							<key>KeyNames</key>
+							<string>Command + Option</string>
+						</dict>
+					</array>
+				</dict>
+			</array>
+			
+			<key>ActionModifierDicts</key>
+			<array>
+				<dict>
+					<key>CustomDescriptionSubtitle</key>
+					<string>(Before mouse click)</string>
+					
+					<key>CustomKeyNamesSubtitle</key>
+					<string>Hold until mouse down</string>
+
+					<key>ModifierStringDicts</key>
+					<array>
+						<dict>
+							<key>Description</key>
+							<string>Color Ramp Line (Gradient)</string>
+							<key>KeyNames</key>
+							<string>Control + Option</string>
+						</dict>
+					</array>
+				</dict>
+
+				<dict>
+					<key>CustomKeyNamesSubtitle</key>
+					<string>Press anytime</string>
+
+					<key>ModifierStringDicts</key>
+					<array>
+						<dict>
+							<key>Description</key>
+							<string>New Segment</string>
+							<key>KeyNames</key>
+							<string>Control</string>
+						</dict>
+						<dict>
+							<key>Description</key>
+							<string>Delete Segment</string>
+							<key>KeyNames</key>
+							<string>Option</string>
+						</dict>
+					</array>
+				</dict>
+
+				<dict>
+					<key>CustomDescriptionSubtitle</key>
+					<string> </string>
+					
+					<key>CustomKeyNamesSubtitle</key>
+					<string>Hold until segment done</string>
+
+					<key>ModifierStringDicts</key>
+					<array>
+						<dict>
+							<key>Description</key>
+							<string>Align to Nearest 1/16 Angle</string>
+							<key>KeyNames</key>
+							<string>Shift</string>
+						</dict>
+					</array>
+				</dict>
+
+				<dict>
+					<key>CustomDescriptionSubtitle</key>
+					<string> </string>
+					
+					<key>ModifierStringDicts</key>
+					<array>
+						<dict>
+							<key>Description</key>
+							<string>Fill Drawn Shape</string>
+							<key>KeyNames</key>
+							<string>Command</string>
+						</dict>
+					</array>
+				</dict>
+			</array>
+		</dict>
+
+		<dict>
+			<key>ToolName</key>
+			<string>Rectangle Tool</string>
+			
+			<key>TypeModifierDicts</key>
+			<array>
+				<dict>
+					<key>ModifierStringDicts</key>
+					<array>
+						<dict>
+							<key>Description</key>
+							<string>Fill Tool</string>
+							<key>KeyNames</key>
+							<string>Option + Shift</string>
+						</dict>
+						<dict>
+							<key>Description</key>
+							<string>Color Sampler Tool</string>
+							<key>KeyNames</key>
+							<string>Option</string>
+						</dict>
+						<dict>
+							<key>Description</key>
+							<string>Magnifier</string>
+							<key>KeyNames</key>
+							<string>Command + Option</string>
+						</dict>
+					</array>
+				</dict>
+			</array>
+			
+			<key>ActionModifierDicts</key>
+			<array>
+				<dict>
+					<key>ModifierStringDicts</key>
+					<array>
+						<dict>
+							<key>Description</key>
+							<string>Force Square Shape</string>
+							<key>KeyNames</key>
+							<string>Shift</string>
+						</dict>
+						<dict>
+							<key>Description</key>
+							<string>Center Shape at Click Point</string>
+							<key>KeyNames</key>
+							<string>Control</string>
+						</dict>
+						<dict>
+							<key>Description</key>
+							<string>Fill Shape</string>
+							<key>KeyNames</key>
+							<string>Command</string>
+						</dict>
+					</array>
+				</dict>
+			</array>
+		</dict>
+
+		<dict>
+			<key>ToolName</key>
+			<string>Oval Tool</string>
+
+			<key>TypeModifierDicts</key>
+			<array>
+				<dict>
+					<key>ModifierStringDicts</key>
+					<array>
+						<dict>
+							<key>Description</key>
+							<string>Fill Tool</string>
+							<key>KeyNames</key>
+							<string>Option + Shift</string>
+						</dict>
+						<dict>
+							<key>Description</key>
+							<string>Color Sampler Tool</string>
+							<key>KeyNames</key>
+							<string>Option</string>
+						</dict>
+						<dict>
+							<key>Description</key>
+							<string>Magnifier</string>
+							<key>KeyNames</key>
+							<string>Command + Option</string>
+						</dict>
+					</array>
+				</dict>
+			</array>
+			
+			<key>ActionModifierDicts</key>
+			<array>
+				<dict>
+					<key>ModifierStringDicts</key>
+					<array>
+						<dict>
+							<key>Description</key>
+							<string>Force Circle Shape</string>
+							<key>KeyNames</key>
+							<string>Shift</string>
+						</dict>
+						<dict>
+							<key>Description</key>
+							<string>Center Shape at Click Point</string>
+							<key>KeyNames</key>
+							<string>Control</string>
+						</dict>
+						<dict>
+							<key>Description</key>
+							<string>Fill Shape</string>
+							<key>KeyNames</key>
+							<string>Command</string>
+						</dict>
+					</array>
+				</dict>
+			</array>
+		</dict>
+
+		<dict>
+			<key>ToolName</key>
+			<string>Freehand Select Tool</string>
+			
+			<key>TypeModifierDicts</key>
+			<array>
+				<dict>
+					<key>ModifierStringDicts</key>
+					<array>
+						<dict>
+							<key>Description</key>
+							<string>Move Tool</string>
+							<key>KeyNames</key>
+							<string>Control + Shift</string>
+						</dict>
+						<dict>
+							<key>Description</key>
+							<string>Magnifier</string>
+							<key>KeyNames</key>
+							<string>Command + Option</string>
+						</dict>
+					</array>
+				</dict>
+			</array>
+			
+			<key>ActionModifierDicts</key>
+			<array>
+				<dict>
+					<key>ModifierStringDicts</key>
+					<array>
+						<dict>
+							<key>Description</key>
+							<string>Add to Existing Selection</string>
+							<key>KeyNames</key>
+							<string>Shift</string>
+						</dict>
+						<dict>
+							<key>Description</key>
+							<string>Subtract from Existing Selection</string>
+							<key>KeyNames</key>
+							<string>Option</string>
+						</dict>
+						<dict>
+							<key>Description</key>
+							<string>Intersect Existing Selection</string>
+							<key>KeyNames</key>
+							<string>Option + Shift</string>
+						</dict>
+					</array>
+				</dict>
+			</array>
+		</dict>
+
+		<dict>
+			<key>ToolName</key>
+			<string>Rectangle Select Tool</string>
+
+			<key>TypeModifierDicts</key>
+			<array>
+				<dict>
+					<key>ModifierStringDicts</key>
+					<array>
+						<dict>
+							<key>Description</key>
+							<string>Move Tool</string>
+							<key>KeyNames</key>
+							<string>Control + Shift</string>
+						</dict>
+						<dict>
+							<key>Description</key>
+							<string>Magnifier</string>
+							<key>KeyNames</key>
+							<string>Command + Option</string>
+						</dict>
+					</array>
+				</dict>
+			</array>
+			
+			<key>ActionModifierDicts</key>
+			<array>
+				<dict>
+					<key>ModifierStringDicts</key>
+					<array>
+						<dict>
+							<key>Description</key>
+							<string>Add to Existing Selection</string>
+							<key>KeyNames</key>
+							<string>Shift</string>
+						</dict>
+						<dict>
+							<key>Description</key>
+							<string>Subtract from Existing Selection</string>
+							<key>KeyNames</key>
+							<string>Option</string>
+						</dict>
+						<dict>
+							<key>Description</key>
+							<string>Intersect Existing Selection</string>
+							<key>KeyNames</key>
+							<string>Option + Shift</string>
+						</dict>
+						<dict>
+							<key>Description</key>
+							<string>Snap Rectangle to Grid Guidelines</string>
+							<key>KeyNames</key>
+							<string>Control</string>
+						</dict>
+					</array>
+				</dict>
+
+				<dict>
+					<key>CustomDescriptionSubtitle</key>
+					<string> </string>
+					
+					<key>CustomKeyNamesSubtitle</key>
+					<string>Hold anytime</string>
+
+					<key>ModifierStringDicts</key>
+					<array>
+						<dict>
+							<key>Description</key>
+							<string>Move Rectangle Outline</string>
+							<key>KeyNames</key>
+							<string>Command</string>
+						</dict>
+					</array>
+				</dict>
+			</array>
+		</dict>
+
+		<dict>
+			<key>ToolName</key>
+			<string>Magic Wand Tool</string>
+
+			<key>TypeModifierDicts</key>
+			<array>
+				<dict>
+					<key>ModifierStringDicts</key>
+					<array>
+						<dict>
+							<key>Description</key>
+							<string>Magnifier</string>
+							<key>KeyNames</key>
+							<string>Command + Option</string>
+						</dict>
+					</array>
+				</dict>
+			</array>
+
+			<key>ActionModifierDicts</key>
+			<array>
+				<dict>
+					<key>ModifierStringDicts</key>
+					<array>
+						<dict>
+							<key>Description</key>
+							<string>Match Diagonally</string>
+							<key>KeyNames</key>
+							<string>Control</string>
+						</dict>
+						<dict>
+							<key>Description</key>
+							<string>Match Anywhere</string>
+							<key>KeyNames</key>
+							<string>Command</string>
+						</dict>
+						<dict>
+							<key>Description</key>
+							<string>Add to Existing Selection</string>
+							<key>KeyNames</key>
+							<string>Shift</string>
+						</dict>
+						<dict>
+							<key>Description</key>
+							<string>Subtract from Existing Selection</string>
+							<key>KeyNames</key>
+							<string>Option</string>
+						</dict>
+						<dict>
+							<key>Description</key>
+							<string>Intersect Existing Selection</string>
+							<key>KeyNames</key>
+							<string>Option + Shift</string>
+						</dict>
+					</array>
+				</dict>
+			</array>
+		</dict>
+
+		<dict>
+			<key>ToolName</key>
+			<string>Color Sampler Tool</string>
+			
+			<key>TypeModifierDicts</key>
+			<array>
+				<dict>
+					<key>ModifierStringDicts</key>
+					<array>
+						<dict>
+							<key>Description</key>
+							<string>Magnifier</string>
+							<key>KeyNames</key>
+							<string>Command + Option</string>
+						</dict>
+					</array>
+				</dict>
+			</array>
+
+			<key>ActionModifierDicts</key>
+			<array>
+				<dict>
+					<key>CustomDescriptionSubtitle</key>
+					<string>No modifiers</string>
+					
+					<key>CustomKeyNamesSubtitle</key>
+					<string> </string>
+				</dict>
+			</array>
+
+		</dict>
+
+		<dict>
+			<key>ToolName</key>
+			<string>Move Tool</string>
+
+			<key>TypeModifierDicts</key>
+			<array>
+				<dict>
+					<key>ModifierStringDicts</key>
+					<array>
+						<dict>
+							<key>Description</key>
+							<string>Magnifier</string>
+							<key>KeyNames</key>
+							<string>Command + Option</string>
+						</dict>
+					</array>
+				</dict>
+			</array>
+			
+			<key>ActionModifierDicts</key>
+			<array>
+				<dict>
+					<key>ModifierStringDicts</key>
+					<array>
+						<dict>
+							<key>Description</key>
+							<string>Leave Copy in Place</string>
+							<key>KeyNames</key>
+							<string>Command</string>
+						</dict>
+						<dict>
+							<key>Description</key>
+							<string>Move Selection Outline Only</string>
+							<key>KeyNames</key>
+							<string>Option</string>
+						</dict>
+					</array>
+				</dict>
+			</array>
+		</dict>
+
+		<dict>
+			<key>ToolName</key>
+			<string>Magnifier</string>
+
+			<key>TypeModifierDicts</key>
+			<array>
+				<dict>
+					<key>CustomDescriptionSubtitle</key>
+					<string>No switches</string>
+					
+					<key>CustomKeyNamesSubtitle</key>
+					<string> </string>
+				</dict>
+			</array>
+
+			<key>ActionModifierDicts</key>
+			<array>
+				<dict>
+					<key>ModifierStringDicts</key>
+					<array>
+						<dict>
+							<key>Description</key>
+							<string>Zoom Out</string>
+							<key>KeyNames</key>
+							<string>Shift</string>
+						</dict>
+						<dict>
+							<key>Description</key>
+							<string>Center Outline at Click Point</string>
+							<key>KeyNames</key>
+							<string>Control</string>
+						</dict>
+					</array>
+				</dict>
+			</array>
+		</dict>
+
+		<dict>
+			<key>ToolName</key>
+			<string>Line Tool (Clr. Ramp)</string>
+
+			<key>TypeModifierDicts</key>
+			<array>
+				<dict>
+					<key>CustomDescriptionSubtitle</key>
+					<string>No switches</string>
+					
+					<key>CustomKeyNamesSubtitle</key>
+					<string> </string>
+				</dict>
+			</array>
+
+			<key>ActionModifierDicts</key>
+			<array>
+				<dict>
+					<key>CustomDescriptionSubtitle</key>
+					<string>No modifiers</string>
+					
+					<key>CustomKeyNamesSubtitle</key>
+					<string> </string>
+				</dict>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>

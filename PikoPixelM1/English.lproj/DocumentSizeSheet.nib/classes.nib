@@ -1,0 +1,55 @@
+{
+    IBClasses =     (
+                {
+            CLASS = FirstResponder;
+            LANGUAGE = ObjC;
+            SUPERCLASS = NSObject;
+        },
+                {
+            CLASS = NSObject;
+            LANGUAGE = ObjC;
+        },
+                {
+            ACTIONS =             {
+                OKButtonPressed = id;
+                cancelButtonPressed = id;
+            };
+            CLASS = PPDocumentSheetController;
+            LANGUAGE = ObjC;
+            OUTLETS =             {
+                "_sheet" = NSWindow;
+            };
+            SUPERCLASS = NSObject;
+        },
+                {
+            ACTIONS =             {
+                "sizePresetsMenuItemSelected_CustomDimensions" = id;
+                "sizePresetsMenuItemSelected_EditSizePresets" = id;
+                "sizePresetsMenuItemSelected_PresetSize" = id;
+            };
+            CLASS = PPDocumentSizeSheetController;
+            LANGUAGE = ObjC;
+            OUTLETS =             {
+                "_defaultSizePresetsMenu" = NSMenu;
+                "_heightTextField" = NSTextField;
+                "_sizePresetsTitleablePopUpButton" = PPTitleablePopUpButton;
+                "_widthTextField" = NSTextField;
+            };
+            SUPERCLASS = PPDocumentSheetController;
+        },
+                {
+            CLASS = PPKeyCancellableWindow;
+            LANGUAGE = ObjC;
+            OUTLETS =             {
+                "_cancelButton" = NSButton;
+            };
+            SUPERCLASS = NSWindow;
+        },
+                {
+            CLASS = PPTitleablePopUpButton;
+            LANGUAGE = ObjC;
+            SUPERCLASS = NSPopUpButton;
+        }
+    );
+    IBVersion = 1;
+}

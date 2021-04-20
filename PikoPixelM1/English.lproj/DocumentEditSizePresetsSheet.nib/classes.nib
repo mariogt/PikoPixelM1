@@ -1,0 +1,49 @@
+{
+    IBClasses =     (
+                {
+            CLASS = FirstResponder;
+            LANGUAGE = ObjC;
+            SUPERCLASS = NSObject;
+        },
+                {
+            CLASS = NSObject;
+            LANGUAGE = ObjC;
+        },
+                {
+            ACTIONS =             {
+                addPresetButtonPressed = id;
+                defaultListButtonPressed = id;
+                deletePresetButtonPressed = id;
+            };
+            CLASS = PPDocumentEditImageSizePresetsSheetController;
+            LANGUAGE = ObjC;
+            OUTLETS =             {
+                "_heightTextField" = NSTextField;
+                "_presetsTable" = NSTableView;
+                "_widthTextField" = NSTextField;
+            };
+            SUPERCLASS = PPDocumentSheetController;
+        },
+                {
+            ACTIONS =             {
+                OKButtonPressed = id;
+                cancelButtonPressed = id;
+            };
+            CLASS = PPDocumentSheetController;
+            LANGUAGE = ObjC;
+            OUTLETS =             {
+                "_sheet" = NSWindow;
+            };
+            SUPERCLASS = NSObject;
+        },
+                {
+            CLASS = PPKeyCancellableWindow;
+            LANGUAGE = ObjC;
+            OUTLETS =             {
+                "_cancelButton" = NSButton;
+            };
+            SUPERCLASS = NSWindow;
+        }
+    );
+    IBVersion = 1;
+}

@@ -1,0 +1,38 @@
+{
+    IBClasses =     (
+                {
+            CLASS = FirstResponder;
+            LANGUAGE = ObjC;
+            SUPERCLASS = NSObject;
+        },
+                {
+            ACTIONS =             {
+                OKButtonPressed = id;
+                cancelButtonPressed = id;
+                insertSystemKeyButtonPressed = id;
+                loadDefaultsForLanguageButtonPressed = id;
+            };
+            CLASS = PPHotkeySettingsWindowController;
+            LANGUAGE = ObjC;
+            OUTLETS =             {
+                "_actionFieldsMatrix" = NSMatrix;
+                "_languagePopUpButton" = NSPopUpButton;
+                "_popupPanelFieldsMatrix" = NSMatrix;
+                "_systemKeyPopUpButton" = NSPopUpButton;
+                "_toolFieldsMatrix1" = NSMatrix;
+                "_toolFieldsMatrix2" = NSMatrix;
+                "_window" = NSWindow;
+            };
+            SUPERCLASS = NSObject;
+        },
+                {
+            CLASS = PPKeyCancellableWindow;
+            LANGUAGE = ObjC;
+            OUTLETS =             {
+                "_cancelButton" = NSButton;
+            };
+            SUPERCLASS = NSWindow;
+        }
+    );
+    IBVersion = 1;
+}

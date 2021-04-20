@@ -1,0 +1,73 @@
+{
+    IBClasses =     (
+                {
+            CLASS = FirstResponder;
+            LANGUAGE = ObjC;
+            SUPERCLASS = NSObject;
+        },
+                {
+            CLASS = NSObject;
+            LANGUAGE = ObjC;
+        },
+                {
+            CLASS = NSSegmentedControl;
+            LANGUAGE = ObjC;
+            SUPERCLASS = NSControl;
+        },
+                {
+            CLASS = PPColorWell;
+            LANGUAGE = ObjC;
+            SUPERCLASS = NSColorWell;
+        },
+                {
+            ACTIONS =             {
+                gridSettingChanged = id;
+                "presetsMenuItemSelected_AddCurrentPatternToPresets" = id;
+                "presetsMenuItemSelected_CustomPattern" = id;
+                "presetsMenuItemSelected_DefaultPattern" = id;
+                "presetsMenuItemSelected_EditPresets" = id;
+                "presetsMenuItemSelected_ExportPresetsToFile" = id;
+                "presetsMenuItemSelected_ImportPresetsFromFile" = id;
+                "presetsMenuItemSelected_PresetPattern" = id;
+                "presetsMenuItemSelected_RestoreOriginalDefault" = id;
+                "presetsMenuItemSelected_SavePatternAsDefault" = id;
+                showGridCheckboxClicked = id;
+            };
+            CLASS = PPDocumentGridSettingsSheetController;
+            LANGUAGE = ObjC;
+            OUTLETS =             {
+                "_defaultPresetsMenu" = NSMenu;
+                "_gridColorWell" = NSColorWell;
+                "_gridTypeSegmentedControl" = NSSegmentedControl;
+                "_guidelinesColorWell" = NSColorWell;
+                "_guidelinesHorizontalSpacingTextField" = NSTextField;
+                "_guidelinesVerticalSpacingTextField" = NSTextField;
+                "_presetsPopUpButton" = NSPopUpButton;
+                "_showGridCheckbox" = NSButton;
+                "_showGuidelinesCheckbox" = NSButton;
+            };
+            SUPERCLASS = PPDocumentSheetController;
+        },
+                {
+            ACTIONS =             {
+                OKButtonPressed = id;
+                cancelButtonPressed = id;
+            };
+            CLASS = PPDocumentSheetController;
+            LANGUAGE = ObjC;
+            OUTLETS =             {
+                "_sheet" = NSWindow;
+            };
+            SUPERCLASS = NSObject;
+        },
+                {
+            CLASS = PPKeyCancellableWindow;
+            LANGUAGE = ObjC;
+            OUTLETS =             {
+                "_cancelButton" = NSButton;
+            };
+            SUPERCLASS = NSWindow;
+        }
+    );
+    IBVersion = 1;
+}

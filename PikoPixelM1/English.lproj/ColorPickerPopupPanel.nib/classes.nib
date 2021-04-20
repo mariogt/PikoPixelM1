@@ -1,0 +1,60 @@
+{
+    IBClasses =     (
+        {
+    ACTIONS =     {
+        "" = id;
+    };
+    CLASS = FirstResponder;
+    LANGUAGE = ObjC;
+    SUPERCLASS = NSObject;
+},
+        {
+    CLASS = NSObject;
+    LANGUAGE = ObjC;
+},
+        {
+    CLASS = PPColorPickerPopupPanel;
+    LANGUAGE = ObjC;
+    SUPERCLASS = PPPopupPanel;
+},
+        {
+    ACTIONS =     {
+        colorWellUpdated = id;
+        contentFrameButtonPressed = id;
+        nextSamplerImageButtonPressed = id;
+        previousSamplerImageButtonPressed = id;
+    };
+    CLASS = PPColorPickerPopupPanelController;
+    LANGUAGE = ObjC;
+    OUTLETS =     {
+        "_clickableControlsBoundsTrackingView" = NSView;
+        "_colorWell" = NSColorWell;
+        "_nekoButton" = NSButton;
+        "_nextSamplerImageButton" = NSButton;
+        "_previousSamplerImageButton" = NSButton;
+    };
+    SUPERCLASS = PPPopupPanelController;
+},
+        {
+    CLASS = PPColorWell;
+    LANGUAGE = ObjC;
+    SUPERCLASS = NSColorWell;
+},
+        {
+    CLASS = PPPanelController;
+    LANGUAGE = ObjC;
+    SUPERCLASS = NSWindowController;
+},
+        {
+    CLASS = PPPopupPanel;
+    LANGUAGE = ObjC;
+    SUPERCLASS = NSPanel;
+},
+        {
+    CLASS = PPPopupPanelController;
+    LANGUAGE = ObjC;
+    SUPERCLASS = PPPanelController;
+}
+    );
+    IBVersion = 1;
+}

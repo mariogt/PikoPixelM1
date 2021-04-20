@@ -1,0 +1,57 @@
+{
+    IBClasses =     (
+                {
+            ACTIONS =             {
+                "" = id;
+            };
+            CLASS = FirstResponder;
+            LANGUAGE = ObjC;
+            SUPERCLASS = NSObject;
+        },
+                {
+            CLASS = NSObject;
+            LANGUAGE = ObjC;
+        },
+                {
+            CLASS = NSSegmentedControl;
+            LANGUAGE = ObjC;
+            SUPERCLASS = NSControl;
+        },
+                {
+            CLASS = PPMiniColorWell;
+            LANGUAGE = ObjC;
+            SUPERCLASS = NSView;
+        },
+                {
+            CLASS = PPPanelController;
+            LANGUAGE = ObjC;
+            SUPERCLASS = NSWindowController;
+        },
+                {
+            CLASS = PPPreviewView;
+            LANGUAGE = ObjC;
+            SUPERCLASS = NSImageView;
+        },
+                {
+            ACTIONS =             {
+                nextSamplerImageButtonPressed = id;
+                previousSamplerImageButtonPressed = id;
+            };
+            CLASS = PPSamplerImagePanelController;
+            LANGUAGE = ObjC;
+            OUTLETS =             {
+                "_miniColorWell" = PPMiniColorWell;
+                "_nextSamplerImageButton" = NSButton;
+                "_previousSamplerImageButton" = NSButton;
+                "_samplerImageView" = PPSamplerImageView;
+            };
+            SUPERCLASS = PPPanelController;
+        },
+                {
+            CLASS = PPSamplerImageView;
+            LANGUAGE = ObjC;
+            SUPERCLASS = NSView;
+        }
+    );
+    IBVersion = 1;
+}

@@ -1,0 +1,67 @@
+{
+    IBClasses =     (
+        {
+    CLASS = FirstResponder;
+    LANGUAGE = ObjC;
+    SUPERCLASS = NSObject;
+},
+        {
+    CLASS = NSObject;
+    LANGUAGE = ObjC;
+},
+        {
+    CLASS = NSSegmentedControl;
+    LANGUAGE = ObjC;
+    SUPERCLASS = NSControl;
+},
+        {
+    CLASS = PPNavigatorPopupView;
+    LANGUAGE = ObjC;
+    SUPERCLASS = PPThumbnailImageView;
+},
+        {
+    CLASS = PPNavigatorView;
+    LANGUAGE = ObjC;
+    SUPERCLASS = NSImageView;
+},
+        {
+    CLASS = PPPanelController;
+    LANGUAGE = ObjC;
+    SUPERCLASS = NSWindowController;
+},
+        {
+    CLASS = PPParabolicSlider;
+    LANGUAGE = ObjC;
+    SUPERCLASS = NSSlider;
+},
+        {
+    CLASS = PPPopupPanel;
+    LANGUAGE = ObjC;
+    SUPERCLASS = NSPanel;
+},
+        {
+    CLASS = PPPopupPanelController;
+    LANGUAGE = ObjC;
+    SUPERCLASS = PPPanelController;
+},
+        {
+    CLASS = PPPreviewView;
+    LANGUAGE = ObjC;
+    SUPERCLASS = NSImageView;
+},
+        {
+    CLASS = PPScreencastPopupPanelController;
+    LANGUAGE = ObjC;
+    OUTLETS =     {
+        "_stateTextField" = NSTextField;
+    };
+    SUPERCLASS = PPPopupPanelController;
+},
+        {
+    CLASS = PPThumbnailImageView;
+    LANGUAGE = ObjC;
+    SUPERCLASS = NSView;
+}
+    );
+    IBVersion = 1;
+}

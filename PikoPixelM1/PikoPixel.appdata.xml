@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>PikoPixel</id>
+  <metadata_license>FSFAP</metadata_license>
+  <project_license>AGPL-3.0+</project_license>
+  <name>PikoPixel</name>
+  <summary>Pixel-art image editor</summary>
+  <description>
+    <p>PikoPixel is a free, open-source application for drawing and editing pixel-art images and icons.</p>
+    <p>Features:</p>
+    <ul>
+      <li>Easy to use</li>
+      <li>Unlimited undo</li>
+      <li>Supports multiple layers</li>
+      <li>Customizable canvas background and grid patterns</li>
+      <li>Hotkey-activated popup panels</li>
+      <li>Export upscaled images</li>
+      <li>Supports linear (gamma-correct) color blending</li>
+    </ul>
+    <p>Originally a Mac app, PikoPixel runs natively on GNU/Linux by using the GNUstep framework.</p>
+  </description>
+  <categories>
+    <category>Graphics</category>
+    <category>2DGraphics</category>
+    <category>RasterGraphics</category>
+  </categories>
+  <launchable type="desktop-id">PikoPixel.desktop</launchable>
+  <releases>
+    <release version="1.0 BETA10" date="2020-12-31" />
+  </releases>
+  <screenshots>
+    <screenshot type="default">
+      <image type="source" width="800" height="500">https://screenshots.debian.net/screenshots/000/016/084/large.png</image>
+    </screenshot>
+  </screenshots>
+  <url type="homepage">http://twilightedge.com/mac/pikopixel/</url>
+  <developer_name>Josh Freeman</developer_name>
+  <update_contact>pikopixel_appdata_AT_twilightedge.com</update_contact>
+</component>
+
