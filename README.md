@@ -18,7 +18,7 @@ Apple Silicon/M1/Intel Universal Binary compliant. Also to make possible his
 future development on Apple's next-gen machines and development tools.
 
 Piko Pixel is a free, open-source graphical application for drawing & editing
-pixel-art images, created by Josh Freeman, http://twilightedge.com
+pixel-art images, created by Josh Freeman, http://twilightedge.com/mac/pikopixel/
 
 
 BUILDING ON MACOS
