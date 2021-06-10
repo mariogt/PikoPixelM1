@@ -40,8 +40,8 @@
 
     NSLog(@"nib name passed = %@", [nibName description]);
     //check
-    // si modernizamos la API deprecada la aplicacion se cuelga al seleccionar el size del lienzo y apretar return
-    // esto no sucede en las otras secciones donde se utiliza el metodo nuevo, en donde se pasa una string macro en el nibname
+    // if we update this deprecated method for the updated one the app crash on
+    // startup, when the user select the canvas size and press the OK button
     //if (![[NSBundle mainBundle] loadNibNamed:nibName owner:self topLevelObjects:nil]) {
     if (![NSBundle loadNibNamed: nibName owner: self]) {
         goto ERROR;

@@ -328,7 +328,6 @@
 		0311375D17E23E2E00C3D4FB /* PPPanelDefaultFramePinnings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPPanelDefaultFramePinnings.h; sourceTree = "<group>"; };
 		031453591866A6FA00DE2EC4 /* PPScreencastController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPScreencastController.h; sourceTree = "<group>"; };
 		0314535A1866A6FA00DE2EC4 /* PPScreencastController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPScreencastController.m; sourceTree = "<group>"; };
-		0314CCDA164845E100F8B809 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = English; path = English.lproj/KeyboardNameToLocale.plist; sourceTree = "<group>"; };
 		03158CB0130B705900E08C31 /* PPDocument_Notifications.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPDocument_Notifications.h; sourceTree = "<group>"; };
 		03158CB1130B705900E08C31 /* PPDocument_Notifications.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPDocument_Notifications.m; sourceTree = "<group>"; };
 		03158D74130BEDCF00E08C31 /* PPPanelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPPanelController.h; sourceTree = "<group>"; };
@@ -441,7 +440,6 @@
 		033BA83C168EE8800044D327 /* PPDocumentSamplerImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPDocumentSamplerImage.m; sourceTree = "<group>"; };
 		033BA9361692B8F50044D327 /* PPDocumentSamplerImagesSettingsSheetController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPDocumentSamplerImagesSettingsSheetController.h; sourceTree = "<group>"; };
 		033BA9371692B8F50044D327 /* PPDocumentSamplerImagesSettingsSheetController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPDocumentSamplerImagesSettingsSheetController.m; sourceTree = "<group>"; };
-		033BA9521692D6650044D327 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/DocumentSamplerImagesSettingsSheet.nib; sourceTree = "<group>"; };
 		033BAB031694C6300044D327 /* PPDirectionType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPDirectionType.h; sourceTree = "<group>"; };
 		033DBDEA1D76974E0087D27C /* PPObjCUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPObjCUtilities.h; sourceTree = "<group>"; };
 		033DBDEB1D76974E0087D27C /* PPObjCUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPObjCUtilities.m; sourceTree = "<group>"; };
@@ -453,7 +451,6 @@
 		0341059F14E03D8200E75BA2 /* PPCanvasView_Notifications.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPCanvasView_Notifications.m; sourceTree = "<group>"; };
 		03432A2F130F627200F9F676 /* PPToolsPanelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPToolsPanelController.h; sourceTree = "<group>"; };
 		03432A30130F627200F9F676 /* PPToolsPanelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPToolsPanelController.m; sourceTree = "<group>"; };
-		03432A39130F635F00F9F676 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/ToolsPanel.nib; sourceTree = "<group>"; };
 		03432A6D130FAEF500F9F676 /* PPToolbox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPToolbox.h; sourceTree = "<group>"; };
 		03432A6E130FAEF500F9F676 /* PPToolbox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPToolbox.m; sourceTree = "<group>"; };
 		03432A80130FB03F00F9F676 /* PPTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPTool.h; sourceTree = "<group>"; };
@@ -469,14 +466,12 @@
 		03432B10130FDA1A00F9F676 /* PPRectTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPRectTool.m; sourceTree = "<group>"; };
 		03432B1D130FDACB00F9F676 /* PPOvalTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPOvalTool.h; sourceTree = "<group>"; };
 		03432B1E130FDACB00F9F676 /* PPOvalTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPOvalTool.m; sourceTree = "<group>"; };
-		0344AC1514459B370073A6AF /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/ColorPickerPopupPanel.nib; sourceTree = "<group>"; };
 		0346D35F1A114A4500C17251 /* PPOSXGlue_KeyUpDuringControlTracking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPOSXGlue_KeyUpDuringControlTracking.m; sourceTree = "<group>"; };
 		0346EFB81BFE2E520007A2C2 /* PPOptional.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPOptional.h; sourceTree = "<group>"; };
 		0346EFD51BFE30640007A2C2 /* PPOptional_CanvasSpeedCheck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPOptional_CanvasSpeedCheck.m; sourceTree = "<group>"; };
 		03492B851E6DF1C900B031B0 /* PPModifiablePPToolTypesMasks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPModifiablePPToolTypesMasks.h; sourceTree = "<group>"; };
 		0349A7581304B6D4007DCD51 /* PPDocument_FileFormats.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPDocument_FileFormats.m; sourceTree = "<group>"; };
 		0349A7601304B76E007DCD51 /* PPDocument_Drawing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPDocument_Drawing.m; sourceTree = "<group>"; };
-		0349A77E1304BACD007DCD51 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/DocumentWindow.nib; sourceTree = "<group>"; };
 		034AEA2C1660AF19006C5617 /* NSObject_PPUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSObject_PPUtilities.h; sourceTree = "<group>"; };
 		034AEA2D1660AF19006C5617 /* NSObject_PPUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSObject_PPUtilities.m; sourceTree = "<group>"; };
 		034B5FB5138ED8FB003A8E77 /* PPPopupPanelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPPopupPanelController.h; sourceTree = "<group>"; };
@@ -485,10 +480,8 @@
 		034B5FD0138EDBE8003A8E77 /* PPPopupPanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPPopupPanel.m; sourceTree = "<group>"; };
 		034B628F13989470003A8E77 /* PPPopupPanelsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPPopupPanelsController.h; sourceTree = "<group>"; };
 		034B629013989470003A8E77 /* PPPopupPanelsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPPopupPanelsController.m; sourceTree = "<group>"; };
-		034B6353139978A4003A8E77 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/ToolsPopupPanel.nib; sourceTree = "<group>"; };
 		034B635A139979B1003A8E77 /* PPToolsPopupPanelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPToolsPopupPanelController.h; sourceTree = "<group>"; };
 		034B635B139979B1003A8E77 /* PPToolsPopupPanelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPToolsPopupPanelController.m; sourceTree = "<group>"; };
-		034B648B139AE38A003A8E77 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/NavigatorPopupPanel.nib; sourceTree = "<group>"; };
 		034B92E3150C7F2600599E0C /* Hotkeys_de_AT.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Hotkeys_de_AT.plist; path = hotkey_defaults/Hotkeys_de_AT.plist; sourceTree = "<group>"; };
 		034B92F2150C84A500599E0C /* Hotkeys_nl_BE.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Hotkeys_nl_BE.plist; path = hotkey_defaults/Hotkeys_nl_BE.plist; sourceTree = "<group>"; };
 		034B9339150C94C500599E0C /* Hotkeys_pl.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Hotkeys_pl.plist; path = hotkey_defaults/Hotkeys_pl.plist; sourceTree = "<group>"; };
@@ -528,7 +521,6 @@
 		035B00C2179078D000AA1DB7 /* PPCompositeThumbnail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPCompositeThumbnail.m; sourceTree = "<group>"; };
 		035B00E21790997300AA1DB7 /* PPLayerControlButtonImagesManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPLayerControlButtonImagesManager.h; sourceTree = "<group>"; };
 		035B00E31790997300AA1DB7 /* PPLayerControlButtonImagesManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPLayerControlButtonImagesManager.m; sourceTree = "<group>"; };
-		035B01151791BDDB00AA1DB7 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/LayerControlButtonImageViews.nib; sourceTree = "<group>"; };
 		035B018B179235CC00AA1DB7 /* PPLayerControlButtonImagesManager_Notifications.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPLayerControlButtonImagesManager_Notifications.h; sourceTree = "<group>"; };
 		035B018C179235CC00AA1DB7 /* PPLayerControlButtonImagesManager_Notifications.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPLayerControlButtonImagesManager_Notifications.m; sourceTree = "<group>"; };
 		035BFFD5178E4F0000AA1DB7 /* PPRuntimeEnvironmentMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPRuntimeEnvironmentMacros.h; sourceTree = "<group>"; };
@@ -562,7 +554,6 @@
 		037472C5143E208B00BBA96F /* PPDocumentFlattenedSaveNoticeSheetController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPDocumentFlattenedSaveNoticeSheetController.h; sourceTree = "<group>"; };
 		037472C6143E208B00BBA96F /* PPDocumentFlattenedSaveNoticeSheetController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPDocumentFlattenedSaveNoticeSheetController.m; sourceTree = "<group>"; };
 		037472EA12FBD9480026A596 /* PPDocument_Layers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPDocument_Layers.m; sourceTree = "<group>"; };
-		0374731C143E595300BBA96F /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/DocumentFlattenedSaveNoticeSheet.nib; sourceTree = "<group>"; };
 		0377183D1EB31E8400556F9A /* PPOSXGlue_PreserveDrawColorDuringAboutPanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPOSXGlue_PreserveDrawColorDuringAboutPanel.m; sourceTree = "<group>"; };
 		0378357413768B450046E201 /* PPDocument_Saving.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPDocument_Saving.m; sourceTree = "<group>"; };
 		037836ED137694700046E201 /* PPExportPanelAccessoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPExportPanelAccessoryViewController.h; sourceTree = "<group>"; };
@@ -575,8 +566,6 @@
 		037A7AF517B56405002D56F6 /* PPUIFontDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPUIFontDefines.h; sourceTree = "<group>"; };
 		037A7C7817B8CC37002D56F6 /* PPDocument_LayerOperationTarget.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPDocument_LayerOperationTarget.m; sourceTree = "<group>"; };
 		037CB6A91D690F8300B51DA0 /* PPOSXGlue_PatternPhaseGlitches.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPOSXGlue_PatternPhaseGlitches.m; sourceTree = "<group>"; };
-		037CFC4913041BE700ED3E48 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/PreviewPanel.nib; sourceTree = "<group>"; };
-		037CFC6913041CCB00ED3E48 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/LayersPanel.nib; sourceTree = "<group>"; };
 		0384F0BA153A85670027C3B0 /* PPGridType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPGridType.h; sourceTree = "<group>"; };
 		0384F84F17C6F44400F766BC /* PPCanvasView_EraserToolOverlay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPCanvasView_EraserToolOverlay.m; sourceTree = "<group>"; };
 		0384F8BA17C71F7500F766BC /* eraser_tool_overlay_outline_pattern.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = eraser_tool_overlay_outline_pattern.png; path = images/eraser_tool_overlay_outline_pattern.png; sourceTree = "<group>"; };
@@ -603,11 +592,8 @@
 		039CD4001667524500ED977A /* PPPreviewBackgroundType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPPreviewBackgroundType.h; sourceTree = "<group>"; };
 		039CD49F16688F5700ED977A /* PPBackgroundPatternType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPBackgroundPatternType.h; sourceTree = "<group>"; };
 		039CD4B41668972600ED977A /* PPHotkeyType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPHotkeyType.h; sourceTree = "<group>"; };
-		039FB7B7137A74BB00D9E286 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/ExportPanelAccessoryView.nib; sourceTree = "<group>"; };
-		039FB7EF137A884900D9E286 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/DocumentBackgroundSettingsSheet.nib; sourceTree = "<group>"; };
 		03A0DDE616719BC0000BC982 /* PPParabolicSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPParabolicSlider.h; sourceTree = "<group>"; };
 		03A0DDE716719BC0000BC982 /* PPParabolicSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPParabolicSlider.m; sourceTree = "<group>"; };
-		03A5BEFB1523AD1E003EC48D /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/ToolModifierTipsPanel.nib; sourceTree = "<group>"; };
 		03A5BF0515279EB6003EC48D /* PPToolModifierTipsPanelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPToolModifierTipsPanelController.h; sourceTree = "<group>"; };
 		03A5BF0615279EB6003EC48D /* PPToolModifierTipsPanelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPToolModifierTipsPanelController.m; sourceTree = "<group>"; };
 		03A7C17D131884CE00DF3B23 /* PPDocument_Selection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPDocument_Selection.m; sourceTree = "<group>"; };
@@ -618,7 +604,6 @@
 		03AC283613BCD1C300C7A477 /* NSWindow_PPUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSWindow_PPUtilities.m; sourceTree = "<group>"; };
 		03B27A371479CB1C00520BE4 /* PPLayerControlsPopupPanelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPLayerControlsPopupPanelController.h; sourceTree = "<group>"; };
 		03B27A381479CB1C00520BE4 /* PPLayerControlsPopupPanelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPLayerControlsPopupPanelController.m; sourceTree = "<group>"; };
-		03B27A3F1479CC5B00520BE4 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/LayerControlsPopupPanel.nib; sourceTree = "<group>"; };
 		03B3814E15EF1B6E001FC276 /* PPDocumentWindowController_Sheets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPDocumentWindowController_Sheets.h; sourceTree = "<group>"; };
 		03B446ED16058E78009CD1D0 /* PPCanvasView_Autoscrolling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPCanvasView_Autoscrolling.m; sourceTree = "<group>"; };
 		03B5E43B1DF681FF00D99F97 /* NSBitmapImageRep_PPUtilities_LinearRGB16Bitmaps.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSBitmapImageRep_PPUtilities_LinearRGB16Bitmaps.m; sourceTree = "<group>"; };
@@ -626,14 +611,12 @@
 		03B5E5161DFE910300D99F97 /* PPImagePixelAlphaPremultiplyTables.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPImagePixelAlphaPremultiplyTables.m; sourceTree = "<group>"; };
 		03B971C71498C07C00175B89 /* NSColorPanel_PPUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSColorPanel_PPUtilities.h; sourceTree = "<group>"; };
 		03B971C81498C07C00175B89 /* NSColorPanel_PPUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSColorPanel_PPUtilities.m; sourceTree = "<group>"; };
-		03BB8E1C14FF697300B47930 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/HotkeySettings.nib; sourceTree = "<group>"; };
 		03BB8E2414FF69BF00B47930 /* PPHotkeySettingsWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPHotkeySettingsWindowController.h; sourceTree = "<group>"; };
 		03BB8E2514FF69BF00B47930 /* PPHotkeySettingsWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPHotkeySettingsWindowController.m; sourceTree = "<group>"; };
 		03BD47F1133F8ACC003B0F56 /* NSColor_PPUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSColor_PPUtilities.h; sourceTree = "<group>"; };
 		03BD47F2133F8ACC003B0F56 /* NSColor_PPUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSColor_PPUtilities.m; sourceTree = "<group>"; };
 		03BD4807133F9305003B0F56 /* PPDocumentGridSettingsSheetController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPDocumentGridSettingsSheetController.h; sourceTree = "<group>"; };
 		03BD4808133F9305003B0F56 /* PPDocumentGridSettingsSheetController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPDocumentGridSettingsSheetController.m; sourceTree = "<group>"; };
-		03BD48801340EC0E003B0F56 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/DocumentGridSettingsSheet.nib; sourceTree = "<group>"; };
 		03BD48BC13410758003B0F56 /* PPUserDefaults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPUserDefaults.h; sourceTree = "<group>"; };
 		03BD48BD13410758003B0F56 /* PPUserDefaults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPUserDefaults.m; sourceTree = "<group>"; };
 		03BF0A09135AA6D3000F2C14 /* PPPreviewPanelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPPreviewPanelController.m; sourceTree = "<group>"; };
@@ -642,15 +625,12 @@
 		03BF0A0D135AA6E4000F2C14 /* PPPreviewView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPPreviewView.h; sourceTree = "<group>"; };
 		03BF3DD915D84F2D00371534 /* PPDocumentScaleSheetController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPDocumentScaleSheetController.h; sourceTree = "<group>"; };
 		03BF3DDA15D84F2D00371534 /* PPDocumentScaleSheetController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPDocumentScaleSheetController.m; sourceTree = "<group>"; };
-		03BF404115E4122700371534 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/DocumentScaleSheet.nib; sourceTree = "<group>"; };
 		03BF406F15E4263C00371534 /* PPScaledImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPScaledImageView.h; sourceTree = "<group>"; };
 		03BF407015E4263C00371534 /* PPScaledImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPScaledImageView.m; sourceTree = "<group>"; };
 		03BF414B15E8251600371534 /* PPDocumentAnimationFileNoticeSheetController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPDocumentAnimationFileNoticeSheetController.h; sourceTree = "<group>"; };
 		03BF414C15E8251600371534 /* PPDocumentAnimationFileNoticeSheetController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPDocumentAnimationFileNoticeSheetController.m; sourceTree = "<group>"; };
 		03BFCAF018837020001844A6 /* PPScreencastPopupPanelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPScreencastPopupPanelController.h; sourceTree = "<group>"; };
 		03BFCAF118837020001844A6 /* PPScreencastPopupPanelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPScreencastPopupPanelController.m; sourceTree = "<group>"; };
-		03BFCB2E18839658001844A6 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/ScreencastPopupPanel.nib; sourceTree = "<group>"; };
-		03C22A13172DB76900478538 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = English; path = English.lproj/ToolModifierTipsStrings.plist; sourceTree = "<group>"; };
 		03C26EA9144FEA74003D5B4E /* NSDocumentController_PPUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDocumentController_PPUtilities.h; sourceTree = "<group>"; };
 		03C26EAA144FEA74003D5B4E /* NSDocumentController_PPUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDocumentController_PPUtilities.m; sourceTree = "<group>"; };
 		03C26EF414506E09003D5B4E /* NSPasteboard_PPUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSPasteboard_PPUtilities.h; sourceTree = "<group>"; };
@@ -672,11 +652,9 @@
 		03C56B0A1E491AB20096E7C9 /* PPLayerBlendingModeButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPLayerBlendingModeButton.m; sourceTree = "<group>"; };
 		03C591AB15606CF600B8AD34 /* PPImageSizePresets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPImageSizePresets.h; sourceTree = "<group>"; };
 		03C591AC15606CF600B8AD34 /* PPImageSizePresets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPImageSizePresets.m; sourceTree = "<group>"; };
-		03C591F9156314C600B8AD34 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/DocumentEditSizePresetsSheet.nib; sourceTree = "<group>"; };
 		03C5920B1563184C00B8AD34 /* PPDocumentEditImageSizePresetsSheetController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPDocumentEditImageSizePresetsSheetController.m; sourceTree = "<group>"; };
 		03C617F013126A1F00EE17F1 /* PPDocumentSizeSheetController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPDocumentSizeSheetController.h; sourceTree = "<group>"; };
 		03C617F113126A1F00EE17F1 /* PPDocumentSizeSheetController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPDocumentSizeSheetController.m; sourceTree = "<group>"; };
-		03C617FA1313245300EE17F1 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/DocumentSizeSheet.nib; sourceTree = "<group>"; };
 		03C6183E1313364000EE17F1 /* PPDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPDefines.h; sourceTree = "<group>"; };
 		03C72F3314E072E90017C73C /* PPCanvasView_SelectionOutline.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPCanvasView_SelectionOutline.m; sourceTree = "<group>"; };
 		03C7325314E6E3D00017C73C /* NSBezierPath_PPUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSBezierPath_PPUtilities.h; sourceTree = "<group>"; };
@@ -686,14 +664,12 @@
 		03C7E07F1321042300236E79 /* PPDocumentWindowController_MenuValidation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPDocumentWindowController_MenuValidation.m; sourceTree = "<group>"; };
 		03C8114A16A0EEBB008BBA3D /* PPColorPickerPopupPanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPColorPickerPopupPanel.h; sourceTree = "<group>"; };
 		03C8114B16A0EEBB008BBA3D /* PPColorPickerPopupPanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPColorPickerPopupPanel.m; sourceTree = "<group>"; };
-		03C811CD16A32352008BBA3D /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/SamplerImagePopupPanel.nib; sourceTree = "<group>"; };
 		03C8F374179F02EA0025C1C4 /* PPTitleablePopUpButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPTitleablePopUpButton.h; sourceTree = "<group>"; };
 		03C8F375179F02EA0025C1C4 /* PPTitleablePopUpButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPTitleablePopUpButton.m; sourceTree = "<group>"; };
 		03CAB0A6142A79A8009EBA86 /* PPKeyCancellableWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPKeyCancellableWindow.h; sourceTree = "<group>"; };
 		03CAB0A7142A79A8009EBA86 /* PPKeyCancellableWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPKeyCancellableWindow.m; sourceTree = "<group>"; };
 		03CAB202142BB663009EBA86 /* PPDocumentResizeSheetController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPDocumentResizeSheetController.h; sourceTree = "<group>"; };
 		03CAB203142BB663009EBA86 /* PPDocumentResizeSheetController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPDocumentResizeSheetController.m; sourceTree = "<group>"; };
-		03CAB20B142BB9ED009EBA86 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/DocumentResizeSheet.nib; sourceTree = "<group>"; };
 		03CAD73714D85EA400C37C2E /* PPCanvasView_MatchToolToleranceIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPCanvasView_MatchToolToleranceIndicator.m; sourceTree = "<group>"; };
 		03CAE6251681A13A005BC961 /* PPSamplerImagePopupPanelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPSamplerImagePopupPanelController.h; sourceTree = "<group>"; };
 		03CAE6261681A13A005BC961 /* PPSamplerImagePopupPanelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPSamplerImagePopupPanelController.m; sourceTree = "<group>"; };
@@ -712,7 +688,6 @@
 		03CEF1D2137A944C005B32E7 /* PPDocumentBackgroundSettingsSheetController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPDocumentBackgroundSettingsSheetController.m; sourceTree = "<group>"; };
 		03CF86B3169B13720037A5FD /* PPSamplerImagePanelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPSamplerImagePanelController.h; sourceTree = "<group>"; };
 		03CF86B4169B13720037A5FD /* PPSamplerImagePanelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPSamplerImagePanelController.m; sourceTree = "<group>"; };
-		03CF87B0169C6E3B0037A5FD /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/SamplerImagePanel.nib; sourceTree = "<group>"; };
 		03CF8819169C8BDB0037A5FD /* arrow_left_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = arrow_left_button.png; path = images/arrow_left_button.png; sourceTree = "<group>"; };
 		03CF881A169C8BDB0037A5FD /* arrow_right_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = arrow_right_button.png; path = images/arrow_right_button.png; sourceTree = "<group>"; };
 		03CF8885169CB7800037A5FD /* PPSamplerImagePanelType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPSamplerImagePanelType.h; sourceTree = "<group>"; };
@@ -767,24 +742,49 @@
 		03F2EF8517444A4600EBFA6B /* PPDocumentEditImageSizePresetsSheetController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPDocumentEditImageSizePresetsSheetController.h; sourceTree = "<group>"; };
 		03F2EF8617444A9A00EBFA6B /* PPDocumentEditPatternPresetsSheetController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPDocumentEditPatternPresetsSheetController.h; sourceTree = "<group>"; };
 		03F2EF8717444AA500EBFA6B /* PPDocumentEditPatternPresetsSheetController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPDocumentEditPatternPresetsSheetController.m; sourceTree = "<group>"; };
-		03F2EF9217444DF200EBFA6B /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/DocumentEditPatternPresetsSheet.nib; sourceTree = "<group>"; };
 		03F2F06C1746A95400EBFA6B /* NSFileManager_PPUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSFileManager_PPUtilities.h; sourceTree = "<group>"; };
 		03F2F06D1746A95400EBFA6B /* NSFileManager_PPUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSFileManager_PPUtilities.m; sourceTree = "<group>"; };
 		03FDC66717E56D7D0086EE53 /* freehand_select_cursor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = freehand_select_cursor.png; path = images/tools/freehand_select_cursor.png; sourceTree = "<group>"; };
 		03FDC66917E56D860086EE53 /* freehand_select_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = freehand_select_button.png; path = images/tools/freehand_select_button.png; sourceTree = "<group>"; };
-		089C1660FE840EACC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
 		2A37F4ACFDCFA73011CA2CEA /* PPDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPDocument.m; sourceTree = "<group>"; };
 		2A37F4AEFDCFA73011CA2CEA /* PPDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPDocument.h; sourceTree = "<group>"; };
 		2A37F4B0FDCFA73011CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		2A37F4B7FDCFA73011CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MainMenu.nib; sourceTree = "<group>"; };
-		2A37F4BAFDCFA73011CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = English; path = English.lproj/Credits.rtf; sourceTree = "<group>"; };
 		2A37F4C4FDCFA73011CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		2A37F4C5FDCFA73011CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		32DBCF750370BD2300C91783 /* PikoPixelM1_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PikoPixelM1_Prefix.pch; sourceTree = "<group>"; };
 		8D15AC360486D014006FF6A4 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		8D15AC370486D014006FF6A4 /* PikoPixelM1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PikoPixelM1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC8A9D032627B37200EB05D0 /* PikoPixelM1.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PikoPixelM1.entitlements; sourceTree = "<group>"; };
+		ACD07A422672694400AA5E6D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		ACD07A442672694400AA5E6D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ACD07A452672694400AA5E6D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = en; path = en.lproj/KeyboardNameToLocale.plist; sourceTree = "<group>"; };
+		ACD07A472672694400AA5E6D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = en; path = en.lproj/ToolModifierTipsStrings.plist; sourceTree = "<group>"; };
+		ACD07A5F2672695400AA5E6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = Base; path = Base.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		ACD07A602672695400AA5E6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = Base; path = Base.lproj/DocumentWindow.nib; sourceTree = "<group>"; };
+		ACD07A612672695400AA5E6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = Base; path = Base.lproj/DocumentSizeSheet.nib; sourceTree = "<group>"; };
+		ACD07A622672695400AA5E6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = Base; path = Base.lproj/DocumentEditSizePresetsSheet.nib; sourceTree = "<group>"; };
+		ACD07A632672695400AA5E6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = Base; path = Base.lproj/DocumentScaleSheet.nib; sourceTree = "<group>"; };
+		ACD07A642672695400AA5E6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = Base; path = Base.lproj/DocumentResizeSheet.nib; sourceTree = "<group>"; };
+		ACD07A652672695400AA5E6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = Base; path = Base.lproj/DocumentBackgroundSettingsSheet.nib; sourceTree = "<group>"; };
+		ACD07A662672695500AA5E6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = Base; path = Base.lproj/DocumentGridSettingsSheet.nib; sourceTree = "<group>"; };
+		ACD07A672672695500AA5E6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = Base; path = Base.lproj/DocumentEditPatternPresetsSheet.nib; sourceTree = "<group>"; };
+		ACD07A682672695500AA5E6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = Base; path = Base.lproj/DocumentSamplerImagesSettingsSheet.nib; sourceTree = "<group>"; };
+		ACD07A692672695500AA5E6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = Base; path = Base.lproj/DocumentFlattenedSaveNoticeSheet.nib; sourceTree = "<group>"; };
+		ACD07A6A2672695500AA5E6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = Base; path = Base.lproj/ExportPanelAccessoryView.nib; sourceTree = "<group>"; };
+		ACD07A6B2672695500AA5E6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = Base; path = Base.lproj/ToolsPanel.nib; sourceTree = "<group>"; };
+		ACD07A6C2672695500AA5E6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = Base; path = Base.lproj/LayersPanel.nib; sourceTree = "<group>"; };
+		ACD07A6D2672695500AA5E6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = Base; path = Base.lproj/PreviewPanel.nib; sourceTree = "<group>"; };
+		ACD07A6E2672695500AA5E6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = Base; path = Base.lproj/SamplerImagePanel.nib; sourceTree = "<group>"; };
+		ACD07A6F2672695500AA5E6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = Base; path = Base.lproj/ToolModifierTipsPanel.nib; sourceTree = "<group>"; };
+		ACD07A702672695600AA5E6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = Base; path = Base.lproj/NavigatorPopupPanel.nib; sourceTree = "<group>"; };
+		ACD07A712672695600AA5E6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = Base; path = Base.lproj/ToolsPopupPanel.nib; sourceTree = "<group>"; };
+		ACD07A722672695600AA5E6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = Base; path = Base.lproj/ColorPickerPopupPanel.nib; sourceTree = "<group>"; };
+		ACD07A732672695600AA5E6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = Base; path = Base.lproj/SamplerImagePopupPanel.nib; sourceTree = "<group>"; };
+		ACD07A742672695600AA5E6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = Base; path = Base.lproj/LayerControlsPopupPanel.nib; sourceTree = "<group>"; };
+		ACD07A752672695600AA5E6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = Base; path = Base.lproj/ScreencastPopupPanel.nib; sourceTree = "<group>"; };
+		ACD07A762672695600AA5E6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = Base; path = Base.lproj/LayerControlButtonImageViews.nib; sourceTree = "<group>"; };
+		ACD07A772672695600AA5E6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = Base; path = Base.lproj/HotkeySettings.nib; sourceTree = "<group>"; };
 		ACEF3644262E00DF00A5AC41 /* PPXCConfig_10.5sdk.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = PPXCConfig_10.5sdk.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -1867,13 +1867,14 @@
 			};
 			buildConfigurationList = C05733CB08A9546B00998B17 /* Build configuration list for PBXProject "PikoPixelM1" */;
 			compatibilityVersion = "Xcode 9.3";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 1;
 			knownRegions = (
-				English,
-				Japanese,
-				French,
-				German,
+				en,
+				ja,
+				de,
+				fr,
+				Base,
 			);
 			mainGroup = 2A37F4AAFDCFA73011CA2CEA /* PikoPixel */;
 			projectDirPath = "";
@@ -2214,7 +2215,7 @@
 		0314CCD9164845E100F8B809 /* KeyboardNameToLocale.plist */ = {
 			isa = PBXVariantGroup;
 			children = (
-				0314CCDA164845E100F8B809 /* English */,
+				ACD07A452672694400AA5E6D /* en */,
 			);
 			name = KeyboardNameToLocale.plist;
 			sourceTree = "<group>";
@@ -2222,7 +2223,7 @@
 		033BA9511692D6650044D327 /* DocumentSamplerImagesSettingsSheet.nib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				033BA9521692D6650044D327 /* English */,
+				ACD07A682672695500AA5E6D /* Base */,
 			);
 			name = DocumentSamplerImagesSettingsSheet.nib;
 			sourceTree = "<group>";
@@ -2230,7 +2231,7 @@
 		03432A38130F635F00F9F676 /* ToolsPanel.nib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				03432A39130F635F00F9F676 /* English */,
+				ACD07A6B2672695500AA5E6D /* Base */,
 			);
 			name = ToolsPanel.nib;
 			sourceTree = "<group>";
@@ -2238,7 +2239,7 @@
 		0344AC1414459B370073A6AF /* ColorPickerPopupPanel.nib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				0344AC1514459B370073A6AF /* English */,
+				ACD07A722672695600AA5E6D /* Base */,
 			);
 			name = ColorPickerPopupPanel.nib;
 			sourceTree = "<group>";
@@ -2246,7 +2247,7 @@
 		0349A77D1304BACD007DCD51 /* DocumentWindow.nib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				0349A77E1304BACD007DCD51 /* English */,
+				ACD07A602672695400AA5E6D /* Base */,
 			);
 			name = DocumentWindow.nib;
 			sourceTree = "<group>";
@@ -2254,7 +2255,7 @@
 		034B6352139978A4003A8E77 /* ToolsPopupPanel.nib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				034B6353139978A4003A8E77 /* English */,
+				ACD07A712672695600AA5E6D /* Base */,
 			);
 			name = ToolsPopupPanel.nib;
 			sourceTree = "<group>";
@@ -2262,7 +2263,7 @@
 		034B648A139AE38A003A8E77 /* NavigatorPopupPanel.nib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				034B648B139AE38A003A8E77 /* English */,
+				ACD07A702672695600AA5E6D /* Base */,
 			);
 			name = NavigatorPopupPanel.nib;
 			sourceTree = "<group>";
@@ -2270,7 +2271,7 @@
 		035B01141791BDDB00AA1DB7 /* LayerControlButtonImageViews.nib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				035B01151791BDDB00AA1DB7 /* English */,
+				ACD07A762672695600AA5E6D /* Base */,
 			);
 			name = LayerControlButtonImageViews.nib;
 			sourceTree = "<group>";
@@ -2278,7 +2279,7 @@
 		0374731B143E595300BBA96F /* DocumentFlattenedSaveNoticeSheet.nib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				0374731C143E595300BBA96F /* English */,
+				ACD07A692672695500AA5E6D /* Base */,
 			);
 			name = DocumentFlattenedSaveNoticeSheet.nib;
 			sourceTree = "<group>";
@@ -2286,7 +2287,7 @@
 		037CFC4813041BE700ED3E48 /* PreviewPanel.nib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				037CFC4913041BE700ED3E48 /* English */,
+				ACD07A6D2672695500AA5E6D /* Base */,
 			);
 			name = PreviewPanel.nib;
 			sourceTree = "<group>";
@@ -2294,7 +2295,7 @@
 		037CFC6813041CCB00ED3E48 /* LayersPanel.nib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				037CFC6913041CCB00ED3E48 /* English */,
+				ACD07A6C2672695500AA5E6D /* Base */,
 			);
 			name = LayersPanel.nib;
 			sourceTree = "<group>";
@@ -2302,7 +2303,7 @@
 		039FB7B6137A74BB00D9E286 /* ExportPanelAccessoryView.nib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				039FB7B7137A74BB00D9E286 /* English */,
+				ACD07A6A2672695500AA5E6D /* Base */,
 			);
 			name = ExportPanelAccessoryView.nib;
 			sourceTree = "<group>";
@@ -2310,7 +2311,7 @@
 		039FB7EE137A884900D9E286 /* DocumentBackgroundSettingsSheet.nib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				039FB7EF137A884900D9E286 /* English */,
+				ACD07A652672695400AA5E6D /* Base */,
 			);
 			name = DocumentBackgroundSettingsSheet.nib;
 			sourceTree = "<group>";
@@ -2318,7 +2319,7 @@
 		03A5BEFA1523AD1E003EC48D /* ToolModifierTipsPanel.nib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				03A5BEFB1523AD1E003EC48D /* English */,
+				ACD07A6F2672695500AA5E6D /* Base */,
 			);
 			name = ToolModifierTipsPanel.nib;
 			sourceTree = "<group>";
@@ -2326,7 +2327,7 @@
 		03B27A3E1479CC5B00520BE4 /* LayerControlsPopupPanel.nib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				03B27A3F1479CC5B00520BE4 /* English */,
+				ACD07A742672695600AA5E6D /* Base */,
 			);
 			name = LayerControlsPopupPanel.nib;
 			sourceTree = "<group>";
@@ -2334,7 +2335,7 @@
 		03BB8E1B14FF697300B47930 /* HotkeySettings.nib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				03BB8E1C14FF697300B47930 /* English */,
+				ACD07A772672695600AA5E6D /* Base */,
 			);
 			name = HotkeySettings.nib;
 			sourceTree = "<group>";
@@ -2342,7 +2343,7 @@
 		03BD487F1340EC0E003B0F56 /* DocumentGridSettingsSheet.nib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				03BD48801340EC0E003B0F56 /* English */,
+				ACD07A662672695500AA5E6D /* Base */,
 			);
 			name = DocumentGridSettingsSheet.nib;
 			sourceTree = "<group>";
@@ -2350,7 +2351,7 @@
 		03BF404015E4122700371534 /* DocumentScaleSheet.nib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				03BF404115E4122700371534 /* English */,
+				ACD07A632672695400AA5E6D /* Base */,
 			);
 			name = DocumentScaleSheet.nib;
 			sourceTree = "<group>";
@@ -2358,7 +2359,7 @@
 		03BFCB2D18839658001844A6 /* ScreencastPopupPanel.nib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				03BFCB2E18839658001844A6 /* English */,
+				ACD07A752672695600AA5E6D /* Base */,
 			);
 			name = ScreencastPopupPanel.nib;
 			sourceTree = "<group>";
@@ -2366,7 +2367,7 @@
 		03C22A12172DB76900478538 /* ToolModifierTipsStrings.plist */ = {
 			isa = PBXVariantGroup;
 			children = (
-				03C22A13172DB76900478538 /* English */,
+				ACD07A472672694400AA5E6D /* en */,
 			);
 			name = ToolModifierTipsStrings.plist;
 			sourceTree = "<group>";
@@ -2374,7 +2375,7 @@
 		03C591F8156314C600B8AD34 /* DocumentEditSizePresetsSheet.nib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				03C591F9156314C600B8AD34 /* English */,
+				ACD07A622672695400AA5E6D /* Base */,
 			);
 			name = DocumentEditSizePresetsSheet.nib;
 			sourceTree = "<group>";
@@ -2382,7 +2383,7 @@
 		03C617F91313245300EE17F1 /* DocumentSizeSheet.nib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				03C617FA1313245300EE17F1 /* English */,
+				ACD07A612672695400AA5E6D /* Base */,
 			);
 			name = DocumentSizeSheet.nib;
 			sourceTree = "<group>";
@@ -2390,7 +2391,7 @@
 		03C811CC16A32352008BBA3D /* SamplerImagePopupPanel.nib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				03C811CD16A32352008BBA3D /* English */,
+				ACD07A732672695600AA5E6D /* Base */,
 			);
 			name = SamplerImagePopupPanel.nib;
 			sourceTree = "<group>";
@@ -2398,7 +2399,7 @@
 		03CAB20A142BB9ED009EBA86 /* DocumentResizeSheet.nib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				03CAB20B142BB9ED009EBA86 /* English */,
+				ACD07A642672695400AA5E6D /* Base */,
 			);
 			name = DocumentResizeSheet.nib;
 			sourceTree = "<group>";
@@ -2406,7 +2407,7 @@
 		03CF87AF169C6E3B0037A5FD /* SamplerImagePanel.nib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				03CF87B0169C6E3B0037A5FD /* English */,
+				ACD07A6E2672695500AA5E6D /* Base */,
 			);
 			name = SamplerImagePanel.nib;
 			sourceTree = "<group>";
@@ -2414,7 +2415,7 @@
 		03F2EF9117444DF200EBFA6B /* DocumentEditPatternPresetsSheet.nib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				03F2EF9217444DF200EBFA6B /* English */,
+				ACD07A672672695500AA5E6D /* Base */,
 			);
 			name = DocumentEditPatternPresetsSheet.nib;
 			sourceTree = "<group>";
@@ -2422,7 +2423,7 @@
 		089C165FFE840EACC02AAC07 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				089C1660FE840EACC02AAC07 /* English */,
+				ACD07A442672694400AA5E6D /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -2430,7 +2431,7 @@
 		2A37F4B6FDCFA73011CA2CEA /* MainMenu.nib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				2A37F4B7FDCFA73011CA2CEA /* English */,
+				ACD07A5F2672695400AA5E6D /* Base */,
 			);
 			name = MainMenu.nib;
 			sourceTree = "<group>";
@@ -2438,7 +2439,7 @@
 		2A37F4B9FDCFA73011CA2CEA /* Credits.rtf */ = {
 			isa = PBXVariantGroup;
 			children = (
-				2A37F4BAFDCFA73011CA2CEA /* English */,
+				ACD07A422672694400AA5E6D /* en */,
 			);
 			name = Credits.rtf;
 			sourceTree = "<group>";

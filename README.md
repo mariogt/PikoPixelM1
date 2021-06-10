@@ -1,4 +1,3 @@
-
 PikoPixelM1 for macOS (10.11 to 11.x)
 Version 1.5b
 Apple Silicon/M1/Intel (Universal Binary) port of the original PikoPixel
@@ -10,16 +9,16 @@ Version 1.0 BETA10
 (c) 2013-2018,2020 Josh Freeman
 http://twilightedge.com
 
-ABOUT
------
 
-PikoPixelM1 is a free, open-source graphical application for drawing & editing
-pixel-art images, this is a modernization effort to make the original PikoPixel
-Apple Silicon/M1/Intel Universal Binary compliant. Also to modernize the XCode
-project and to remove all the references to old apis and references to PowerPC.
+ABOUT PikoPixelM1
+-----------------
 
-PikoPixel original proyect and code is the creation and ownership of
-Josh Freeman, http://twilightedge.com, kudos for all his awesome work!
+PikoPixelM1 is a modernization effort to make the original PikoPixel
+Apple Silicon/M1/Intel Universal Binary compliant. Also to make possible his
+future development on Apple's next-gen machines and development tools.
+
+Piko Pixel is a free, open-source graphical application for drawing & editing
+pixel-art images, created by Josh Freeman, http://twilightedge.com
 
 
 BUILDING ON MACOS
@@ -27,6 +26,7 @@ BUILDING ON MACOS
 
 Building PikoPixelM1 1.5b for macOS requires Xcode 9.3 or later.
 Open PikoPixelM1/PikoPixelM1.xcodeproj in Xcode to build & run the application.
+
 
 LICENSE
 -------
