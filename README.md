@@ -1,3 +1,5 @@
+![PikoPixelM1 Icon](https://github.com/mariogt/PikoPixelM1/blob/master/screenshots/pikopixel-icon.png)
+
 PikoPixelM1 for macOS (10.11 to 11.x)
 Version 1.5b
 Apple Silicon/M1/Intel (Universal Binary) port of the original PikoPixel
@@ -43,3 +45,7 @@ details.
 
 You should have received a copy of the GNU Affero General Public License
 along with this program. If not, see <http://www.gnu.org/licenses/>.
+
+
+![PikoPixelM1 screenshot](https://github.com/mariogt/PikoPixelM1/blob/master/screenshots/pikopixelm1-screen1.png)
+![PikoPixelM1 info](https://github.com/mariogt/PikoPixelM1/blob/master/screenshots/pikopixelm1-info.png)
