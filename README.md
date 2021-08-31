@@ -10,8 +10,7 @@ Version 1.0 BETA10
 http://twilightedge.com
 
 
-Mario Gajardo Tassara
-MarioGT Software 2021
+Mario Gajardo Tassara - MarioGT Software 2021
 https://www.mariogt.com
 mario@mariogt.com
 
@@ -50,8 +49,6 @@ details.
 
 You should have received a copy of the GNU Affero General Public License
 along with this program. If not, see <https://www.gnu.org/licenses/agpl-3.0.en.html>.
-
-
 
 
 ![PikoPixelM1 screenshot](https://github.com/mariogt/PikoPixelM1/blob/master/screenshots/pikopixelm1-screen1.png)
