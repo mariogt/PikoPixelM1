@@ -5,20 +5,14 @@ Version 1.5b
 Apple Silicon/M1/Intel (Universal Binary) port of the original PikoPixel
 
 PikoPixel for Mac OS X & GNUstep
-
 Version 1.0 BETA10
-
 (c) 2013-2018,2020 Josh Freeman
-
 http://twilightedge.com
 
 
 Mario Gajardo Tassara
-
 MarioGT Software 2021
-
 https://www.mariogt.com
-
 mario@mariogt.com
 
 
