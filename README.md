@@ -3,13 +3,16 @@
 PikoPixelM1 for macOS (10.11 to 11.x)
 Version 1.5b
 Apple Silicon/M1/Intel (Universal Binary) port of the original PikoPixel
-Mario Gajardo Tassara 2021
-https://www.mariogt.com
 
-PikoPixel Sources for Mac OS X & GNUstep
+PikoPixel for Mac OS X & GNUstep
 Version 1.0 BETA10
 (c) 2013-2018,2020 Josh Freeman
 http://twilightedge.com
+
+Mario Gajardo Tassara
+MarioGT Software 2021
+https://www.mariogt.com
+mario@mariogt.com
 
 
 ABOUT PikoPixelM1
@@ -32,6 +35,7 @@ Open PikoPixelM1/PikoPixelM1.xcodeproj in Xcode to build & run the application.
 
 LICENSE
 -------
+
 PikoPixelM1 is free software: you can redistribute it and/or modify it under
 the terms of the GNU Affero General Public License as published by the
 Free Software Foundation, either version 3 of the License, or (at your
@@ -45,8 +49,6 @@ details.
 
 You should have received a copy of the GNU Affero General Public License
 along with this program. If not, see <https://www.gnu.org/licenses/agpl-3.0.en.html>.
-
-
 
 
 ![PikoPixelM1 screenshot](https://github.com/mariogt/PikoPixelM1/blob/master/screenshots/pikopixelm1-screen1.png)
