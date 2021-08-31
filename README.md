@@ -52,5 +52,7 @@ You should have received a copy of the GNU Affero General Public License
 along with this program. If not, see <https://www.gnu.org/licenses/agpl-3.0.en.html>.
 
 
+
+
 ![PikoPixelM1 screenshot](https://github.com/mariogt/PikoPixelM1/blob/master/screenshots/pikopixelm1-screen1.png)
 ![PikoPixelM1 info](https://github.com/mariogt/PikoPixelM1/blob/master/screenshots/pikopixelm1-info.png)
